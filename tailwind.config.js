@@ -25,6 +25,10 @@ module.exports = {
       },
       animation: {
         shake: 'shake 1s linear infinite',
+      },
+      fontFamily: {
+        windsong: ['var(--font-windsong)'],
+        lobster: ['var(--font-lobster)'],
       }
     },
   },

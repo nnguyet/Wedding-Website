@@ -1,37 +1,52 @@
-import { Image, Box, Text, Heading } from '@chakra-ui/react'
+import { Image, Flex, Text, Heading, Box } from '@chakra-ui/react'
 
 export const Title = () => {
     return (
-        <Box
+        <Flex
             alignItems={{base:'center'}}
             justifyContent={{base:'center'}}
-            pt={{md:'2em'}}
+            flexDir={{base:'column'}}
+            pt={{md:'1.5em'}}
             pb={{md:'1em'}}
         >
             <Heading
                 display={{base:'flex'}}
                 justifyContent={{base:'center'}}
                 alignItems={{base:'center'}}
+                className='font-windsong'
+                color={{base:'white'}}
+                fontWeight={{base:'400'}}
             >
-                <Text>
+                <Text
+                    mr={{base:'16px'}}
+                >
                     Thành Việt
                 </Text>
                 <Image
                     src='/images/love.png'
                     alt='love'
                     w={{base:'26px'}}
-                    mx={{base:'16px'}}
+                    mx={{base:'12px'}}
+                    filter={{base:'invert(100%)'}}
                 />
                 <Text>
                     Minh Ngọc
                 </Text>
             </Heading>
-            <Text
-                textAlign={{base:'center'}}
-                fontSize={{base:'26px'}}
+            <Box
+                borderRadius={{base:'1.5em'}}
+                bg={{base:'pink.default'}}
+                padding={{base:'0.25em 2.5em 0.28em'}}
+                mt={{base:'0.5em'}}
             >
-                You{`'`}re my serendipity
-            </Text>
-        </Box>
+                <Text
+                    textAlign={{base:'center'}}
+                    fontSize={{base:'1.5em'}}
+                    className='font-lobster'
+                >
+                    You{`'`}re my serendipity
+                </Text>
+            </Box>
+        </Flex>
     )
 }
