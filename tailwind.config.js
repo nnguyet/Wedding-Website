@@ -4,11 +4,18 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    extend: {
-      colors: {
-        lightpink: '#faf0f2',
-        // #fcebee
+    colors: {
+      transparent: 'transparent',
+      pink: {
+        light: '#FFFAF5',
+        DEFAULT: '#F7E9E8',
+        dark: '#E3C5C1',
       },
+      textColor: {
+        DEFAULT: '#645553',
+      }
+    },
+    extend: {
       keyframes: {
         shake: {
           '0%, 20%, 40%, 100%': {transform: 'translateX(0) rotate(0deg)'},
