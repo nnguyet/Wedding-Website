@@ -2,7 +2,7 @@
 import './globals.css';
 import { Providers } from "./providers";
 import { Analytics } from '@vercel/analytics/react';
-import { WindSong, Lobster } from '@next/font/google';
+import { WindSong, Lobster } from "next/font/google";
  
 const windSong = WindSong({
     subsets: ['latin'],
