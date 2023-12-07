@@ -3,6 +3,7 @@ import './globals.css';
 import { Providers } from "./providers";
 import { Analytics } from '@vercel/analytics/react';
 import { WindSong, Lobster } from "next/font/google";
+import { Header } from "./components";
  
 const windSong = WindSong({
     subsets: ['latin'],
@@ -28,6 +29,7 @@ export default function RootLayout({ children }) {
         <html lang="en" className={`${windSong.variable} ${lobster.variable}`}>
             <body>
                 <Providers>
+                    <Header />
                     {children}
                     <Analytics />
                 </Providers>

@@ -11,7 +11,7 @@ import NextLink from 'next/link'
 export default function PhotosLayout({ children }) {
     return (
         <React.Fragment>
-            <Flex
+            {/* <Flex
                 position={{base:'fixed'}}
                 justifyContent={{base:'space-between'}}
                 alignItems={{base:'center'}}
@@ -61,7 +61,7 @@ export default function PhotosLayout({ children }) {
                         <FontAwesomeIcon icon={faChevronRight}/>
                     </Button>
                 </Link>
-            </Flex>
+            </Flex> */}
             <section>
                 {children}
             </section>

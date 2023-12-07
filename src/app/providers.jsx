@@ -13,7 +13,13 @@ const theme = extendTheme({
         },
         textColor: {
             default: '#645553',
-          }
+        },
+        gray: {
+            default: '#E3D9D8',
+        },
+        brown: {
+            default: '#A97069',
+        }
     },
 })
 

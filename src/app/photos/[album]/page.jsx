@@ -12,7 +12,7 @@ export default function Album({ params }) {
 
     return (
         <Fragment>
-            <Tabs
+            {/* <Tabs
                 variant='soft-rounded'
                 colorScheme='pink'
                 index={tab.id}
@@ -32,7 +32,7 @@ export default function Album({ params }) {
                             })
                         }
                     </TabList>
-            </Tabs>
+            </Tabs> */}
             
             <Gallery tab={tab.query} />
         </Fragment>

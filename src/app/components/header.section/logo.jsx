@@ -3,8 +3,9 @@ import { Image, Flex } from '@chakra-ui/react'
 export const Logo = () => {
     return (
         <Flex
-            w={{base:'5.5em'}}
-            mr={{base:'3em'}}
+            w={{base:'3.25em', md:'4em'}}
+            mr={{base:'0.5em', md:'3em'}}
+            mt={{base:'0.75em', md:'0'}}
             borderRadius={{base:'50%'}}
             border={{base:'1px dotted white'}}
             alignItems={{base:'center'}}
