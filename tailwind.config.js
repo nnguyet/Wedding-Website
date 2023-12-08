@@ -6,14 +6,17 @@ module.exports = {
   theme: {
     colors: {
       transparent: 'transparent',
-      pink: {
+      'pink': {
         light: '#FFFAF5',
         DEFAULT: '#F7E9E8',
         dark: '#E3C5C1',
       },
-      textColor: {
+      'textColor': {
         DEFAULT: '#645553',
-      }
+      },
+      'brown': {
+        DEFAULT: '#A97069',
+    }
     },
     extend: {
       keyframes: {

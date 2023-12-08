@@ -62,7 +62,10 @@ export const SubMenuItem = ({ content, last=false, subContent, href='/', path='/
                                 key={index}
                                 className='hover:no-underline'
                             >
-                                <Text p={{base:'0.5em'}} color={path.includes(item.query)?'brown.default':'black'}>
+                                <Text
+                                    p={{base:'0.5em'}}
+                                    color={path.includes(item.query)?'brown.default':'black'}
+                                >
                                     {item.title}
                                 </Text>
                             </Link>

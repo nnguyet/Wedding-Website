@@ -19,6 +19,9 @@ const theme = extendTheme({
         },
         brown: {
             default: '#A97069',
+        },
+        yellow: {
+            light: '#EDE2D8',
         }
     },
 })
