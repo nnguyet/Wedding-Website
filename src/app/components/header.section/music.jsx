@@ -33,12 +33,12 @@ export const Music = () => {
     return (
         <Button
             m={{base:'0.5em 0.5em 0.5em 0', md:'0 0 0 1em'}}
-            fontSize={{base:'0.7em', md:'1em'}}
+            fontSize={{base:'0.7em', md:'0.8em'}}
             className='hover:bg-transparent hover:text-textColor'
             color={{base:'pink.light'}}
             border={{base:'2px solid white'}}
             borderRadius={{base:'50%'}}
-            size={{base:'sm', sm:'md'}}
+            size={{base:'sm', sm:'sm'}}
             px={{base:'0.5em', md:'1em'}}
             aspectRatio={{base:'1/1'}}
             onClick={handleMusic}
