@@ -1,4 +1,4 @@
-import { Wallpaper, Timeline, Photos, Timebar, Wishes, Announce, Gallery } from './components'
+import { Wallpaper, Timeline, Photos, Timebar, Wishes, Announce, Gallery, Introduction } from './components'
 
 export default function Homepage() {
     return (
@@ -6,6 +6,7 @@ export default function Homepage() {
             <Wallpaper />
             <Announce />
             <Gallery />
+            <Introduction />
             <Timeline />
             <Timebar />
             <Photos />
