@@ -22,6 +22,9 @@ const theme = extendTheme({
         },
         yellow: {
             light: '#EDE2D8',
+        },
+        btn: {
+            dark: '#C7A9A5',
         }
     },
 })
