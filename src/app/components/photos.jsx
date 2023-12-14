@@ -5,8 +5,7 @@ import { albumList } from './albumList'
 export const Photos = () => {
     return (
         <Box
-            my={{base:'12px', sm:'12px', md:'64px'}}
-            p={{base:'4px 16px', sm:'4px 24px', md:'16px 48px'}}
+            p={{base:'1.5em 1em 1em', sm:'1.25em 1.5em 0.75em', md:'1.25em 2em 0.5em'}}
             backgroundColor={{base:'#E3C5C1'}}
         >
             <Center>

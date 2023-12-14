@@ -18,7 +18,7 @@ export const Time = ({ico, title, message, time, dir='column-reverse', top, left
                 src={ico}
                 alt='Wedding Icon'
                 w={{base:'72px'}}
-                backgroundColor={{base:'white'}}
+                backgroundColor={{base:'pink.light'}}
                 p={{base:'16px'}}
             />
             <Flex
@@ -33,7 +33,7 @@ export const Time = ({ico, title, message, time, dir='column-reverse', top, left
                 <Text textAlign={{base:'center'}}>
                     {title}
                 </Text>
-                <Text textAlign={{base:'center'}} maxW={{base:'90%', md:'100%'}}>
+                <Text textAlign={{base:'center'}} maxW={{base:'90%', sm:'100%'}}>
                     {message}
                 </Text>
             </Flex>
