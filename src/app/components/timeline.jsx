@@ -8,7 +8,7 @@ export const Timeline = () => {
             bg={'pink.light'}
         >
             <Grid
-                px={{base:'2em', sm:'48px', md:'15%'}}
+                px={{base:'2em', sm:'48px', md:'2%', lg:'10%', xl:'13%'}}
                 py={{base:'2em'}}
                 templateColumns={{base:'repeat(1, 1fr)', md:'repeat(3, 1fr)'}}
                 gap={{base:'0.5em', md:'1em'}}
@@ -65,13 +65,13 @@ export const Timeline = () => {
                         >
                         <Box
                             m={{base:'0 auto', md:'1.5em auto 0'}}
-                            borderRadius={{md:'1.5em'}}
+                            borderRadius={{base:'1.5em'}}
                             fontSize={{base:'1em', md:'1em'}}
                             bg={'btn.dark'}
                             color={'white'}
                             w={{base:'60%', md:'25%'}}
                             h={{base:'2.5em', md:'1.75em'}}
-                            lineHeight={{base:'1.5em', md:'1.75em'}}
+                            lineHeight={{base:'2.5em', md:'1.75em'}}
                             _hover={{
                                 bg:'pink.dark',
                             }}
