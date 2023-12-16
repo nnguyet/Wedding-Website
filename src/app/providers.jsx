@@ -25,6 +25,9 @@ const theme = extendTheme({
         },
         btn: {
             dark: '#C7A9A5',
+        },
+        green: {
+            dark:'#667D7B',
         }
     },
 })
