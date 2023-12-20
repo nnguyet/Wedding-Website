@@ -1,4 +1,4 @@
-import { Wallpaper, Timeline, Photos, Timebar, Wishes, Announce, Gallery, Introduction, Dresscode } from './components'
+import { Wallpaper, Timeline, Photos, Timebar, Wishes, Announce, Gallery, Introduction, Dresscode, Qrcode } from './components'
 
 export default function Homepage() {
     return (
@@ -12,6 +12,7 @@ export default function Homepage() {
             <Dresscode />
             <Photos />
             <Wishes />
+            <Qrcode />
         </main>
     );
 }
