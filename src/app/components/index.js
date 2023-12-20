@@ -1,5 +1,5 @@
 export * from "./header"
-// export * from "./footer"
+export * from "./footer"
 export * from "./timeline"
 export * from "./timebar"
 export * from "./photos"
