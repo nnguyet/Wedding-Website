@@ -41,6 +41,7 @@ export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
                 minW={{base:'128px'}}
                 onClick={onOpen}
                 className='hover:animate-shake hover:cursor-pointer'
+                borderRadius={{base:'0.6em'}}
             >
                 <CardBody
                     p={{base:'12px 16px'}}
@@ -88,6 +89,7 @@ export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
                     minH={{base:'200px'}} 
                     maxW={{base:'75%', sm:'60%', md:'55%', lg:'35%'}}
                     maxH={{base:'80%', sm:'75%', md:'70%'}}
+                    borderRadius={{base:'0.6em'}}
                 >
             
 
