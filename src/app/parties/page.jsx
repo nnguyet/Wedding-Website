@@ -1,5 +1,5 @@
 import { LocationMap, Invitation } from "./components"
-import { Timebar } from "../components/"
+import { Timebar, Dresscode } from "../components/"
 import { Heading, Box, Text, Grid, GridItem, Button, Link, Image,Flex } from '@chakra-ui/react'
 
 export default function Parties() {
@@ -19,6 +19,7 @@ export default function Parties() {
 
             <LocationMap />
             <Timebar />
+            <Dresscode />
         </Box>
     )
 }
