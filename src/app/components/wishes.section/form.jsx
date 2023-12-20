@@ -100,13 +100,18 @@ export const Form = () => {
             <Heading
                 as='h2'
             >
-                Đôi lời nhắn gửi
+                Đôi lời nhắn gửi...
             </Heading>
 
             <Text
                 fontStyle={{base:'italic'}}
+                textAlign={{base:'center'}}
+                pt={{base:'0.75em'}}
             >
-                Tâm sự...
+                Thật vui khi được trải qua ngày ý nghĩa như vậy với những người thân yêu.
+                <br />
+                Việt & Ngọc sẽ vui thêm nhiều chút nữa khi nhận được những lời chúc phúc từ mọi người!!!
+
             </Text>
 
             <Flex
@@ -114,17 +119,18 @@ export const Form = () => {
                 w={{base:'100%'}}
                 justifyContent={{base:'center'}}
                 alignItems={{base:'center'}}
-                m={{base:'4px auto', md:'8px'}}
+                m={{base:'4px auto', md:'1em auto 0'}}
             >
                 <Text
                     textAlign={{base:'center'}}
                     m={{base:'8px auto 10px', md:'16px'}}
                 >
-                    Cho tụi mình biết tên của bạn:
+                    Cho chúng mình biết tên của bạn:
                 </Text>
                 <Input
                     placeholder='Tên của bạn'
-                    w={{base:'75%', sm:'50%', md:'30%'}}
+                    w={{base:'75%', sm:'20em', md:'30%'}}
+                    maxW={{md:'16em', lg:'20em'}}
                     value={name}
                     onChange={handleNameInput}
                     ref={nameInputRef}
@@ -136,13 +142,14 @@ export const Form = () => {
                 m={{base:'16px auto 10px'}}
                 textAlign={{base:'center'}}
             >
-                Để lại lời chúc của bạn cho tụi mình nhé!
+                Lời chúc gửi đến chúng mình:
             </Text>
 
             <Textarea
-                placeholder='Lời chúc của bạn'
-                w={{base:'90%', sm:'70%', md:'60%'}}
-                h={{base:'176px', sm:'200px', md:'176px'}}
+                placeholder='Lời vàng ý ngọc'
+                w={{base:'90%', sm:'24em', md:'60%'}}
+                maxW={{md:'30em', lg:'35em'}}
+                h={{base:'11em'}}
                 resize={{base:'none'}}
                 value={message}
                 onChange={handleMessageInput}

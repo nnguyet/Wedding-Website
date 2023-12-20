@@ -14,12 +14,12 @@ export const Wishes = async () => {
 
     return (
         <Box
-            m={{base:'48px 16px', md:'48px 24px'}}
+            p={{base:'3em 1em', md:'3em 1.5em'}}
+            bg={'pink.light'}
         >
             <Form />
             <Messages
                 limit={4}
-                // backgroundColor={'#E3C5C1'}
             />
             <Center>
                 <Link
