@@ -11,7 +11,7 @@ import NextLink from 'next/link'
 export default function WishesLayout({ children }) {
     return (
         <React.Fragment>
-            <Flex
+            {/* <Flex
                 justifyContent={{base:'space-between'}}
                 alignItems={{base:'center'}}
                 m={{base:'24px 16px', md:'24px 48px'}}
@@ -49,7 +49,7 @@ export default function WishesLayout({ children }) {
                         <FontAwesomeIcon icon={faChevronRight}/>
                     </Button>
                 </Link>
-            </Flex>
+            </Flex> */}
             <section>
                 {children}
             </section>

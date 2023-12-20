@@ -4,7 +4,8 @@ import { Form, Messages } from '../components/wishes.section';
 export default function Wishes() {
     return (
         <Box
-            m={{base:'-16px 0 12px', lg:'-60px 0 12px'}}
+            p={{base:'2em 0 1em'}}
+            bg={'pink.light'}
         >
             <Form />
             <Messages />
