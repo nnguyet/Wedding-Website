@@ -17,7 +17,7 @@ export const Time = ({ico, title, message, time, dir='column-reverse', top, left
             <Image
                 src={ico}
                 alt='Wedding Icon'
-                w={{base:'72px'}}
+                w={{base:'4.5em'}}
                 backgroundColor={{base:'pink.light'}}
                 p={{base:'16px'}}
             />

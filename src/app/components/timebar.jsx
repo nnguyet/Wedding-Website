@@ -19,7 +19,7 @@ export const Timebar = () => {
 
             <Box
                 position={{md:'relative'}}
-                mt={{base:'1.25em', sm:'1.25em', md:'9em'}}
+                mt={{base:'1.25em', sm:'1.25em', md:'8.75em'}}
                 mx={{base:'2.5em', md:'2em'}}
                 >
                 <Show above='md'>
@@ -29,7 +29,7 @@ export const Timebar = () => {
                         <Center>
                             <Divider
                                 borderColor={{base:'black'}}
-                                w={{md:'75%'}}
+                                w={{md:'60%'}}
                             />
                         </Center>
                         <Time

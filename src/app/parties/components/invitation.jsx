@@ -8,14 +8,14 @@ export const Invitation = () => {
             flexDir={{base:'column'}}
             justifyContent={{base:'center'}}
             alignItems={{base:'center'}}
-            p={{base:'1em 100%', md:'2em 20% 3em'}}
+            p={{base:'1em 2em 1.75em', md:'2em 20% 3em'}}
             bg={{base:'yellow.light'}}
             color={{base:'green.dark'}}
         >
             <Text
                 fontSize={{base:'3.5em'}}
                 fontWeight={{base:'bold'}}
-                pb={{base:'0.5em'}}
+                pb={{base:'0.25em' , md:'0.5em'}}
                 // pt={{base:'0', md:'0.5em'}}
             >
                 Tiệc mừng cưới
@@ -23,6 +23,7 @@ export const Invitation = () => {
 
             <Text
                 fontSize={{base:'1em'}}
+                // p={{base:'0 2em', md:'0'}}
             >
                 <Text>
                     Trong không khí rộn ràng của những ngày cuối năm, trân trọng kính mời các khách quý đến dự buổi tiệc tối mừng cưới cùng Việt, Ngọc & gia đình.
