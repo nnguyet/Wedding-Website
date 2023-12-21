@@ -13,18 +13,25 @@ export const Introduction = () => {
                 pb={{ base: "0.5em", sm: "0.5em" }}
                 px={{ base: "2em", sm: "0" }}
             >
-                You{'\''}re my serendipity
+                Ngày mình có nhau
             </Text>
             <Text
                 textAlign={{base:'center'}}
-                lineHeight={{ base: "2em", md:'2em' }}
+                lineHeight={{ base: "1.5em", md:'1.5em' }}
                 fontSize={{ base: "1em", md:'1.25em' }}
+                w={{md:'60%'}}
+                m={{base:'auto'}}
             >
-                I wasn{'\''}t looking for you
-                <br />
-                I wasn{'\''}t expecting you
-                <br />
-                But I{'\''}m very lucky I met you.
+                Chúng mình đã dành hơn nửa năm để lên kế hoạch,
+                 rong ruổi khắp VT-SG và chuẩn bị chiếc hôn lễ này.
+                 Không ít sự vất vả, không ít sự bất đồng quan điểm, cũng không ít sự cãi vã,
+                 nhưng chúng mình vui khi được thực hiện hóa ước mơ cùng nhau.
+                <Text
+                    p={{base:'0.5em 0 0', md:'0.75em 0 0'}}
+                >
+                    Đó sẽ một ngày gió nhẹ, có nắng vàng, và chúng mình bên nhau,
+                     bên những người thương nhất, được họ chứng kiến và cứ thế trở thành vợ chồng.
+                </Text>
             </Text>
         </Box>
     )

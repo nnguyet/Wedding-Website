@@ -36,6 +36,21 @@ export const Announce = () => {
             >
                 Vậy là, chúng mình cưới nhau, và sẽ cùng nhau bắt đầu một khởi đầu mới!
             </Text>
+            <Text
+                textAlign={{base:'center'}}
+                fontStyle={{base:'italic'}}
+                p={{ base: "1.5em 0 0", md: "1.75em 0 0" }}
+                fontSize={{ base: "1em", md: "1.25em" }}
+            >
+                You{'\''}re my serendipity
+                <br />
+                I wasn{'\''}t looking for you
+                <br />
+                I wasn{'\''}t expecting you
+                <br />
+                But I{'\''}m very lucky I met you.
+
+            </Text>
         </Box>
     )
 }
