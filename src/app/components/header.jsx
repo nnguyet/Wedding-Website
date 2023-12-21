@@ -8,7 +8,10 @@ export const Header = () => {
             alignItems={{base:'center'}}
             bg={{base:'pink.dark'}}
             flexDir={{base:'column', md:'row'}}
-            position={{base:'relative'}}
+            position={{base:'fixed'}}
+            top={{base:'0'}}
+            left={{base:'0'}}
+            right={{base:'0'}}
         >
             <Logo />
             <Title />

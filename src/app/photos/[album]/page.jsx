@@ -2,17 +2,16 @@ import { Fragment } from 'react';
 import { Image, Box, Text, Heading, Tabs, Tab, TabList, TabPanels, TabPanel, Center } from '@chakra-ui/react'
 import { albumList } from '../../components';
 import { Nav, Gallery } from '../components';
-import { promises as fs } from 'fs';
-import path from 'path';
-// import {v2 as cloudinary} from 'cloudinary';
 
 export default function Album({ params }) {
     const album = params.album;
     const tab = albumList.find((value) => value.query === album) || albumList[0];
 
     return (
-        <Fragment>
-            {/* <Tabs
+        <Box
+            bg={{base:'pink.light'}}
+        >
+            <Tabs
                 variant='soft-rounded'
                 colorScheme='pink'
                 index={tab.id}
@@ -20,11 +19,11 @@ export default function Album({ params }) {
                     <TabList
                         flexWrap={{base:'wrap'}}
                         position={{base:'fixed'}}
-                        top={{base:'56px', md:'74px'}}
+                        top={{base:'56px', md:'6.75em'}}
                         left={{base:'0'}}
                         right={{base:'0'}}
-                        backgroundColor={{base:'white'}}
-                        p={{base:'10px 3%', sm:'10px 7%', md:'8px 4% 16px'}}
+                        bg={{base:'pink.light'}}
+                        p={{base:'10px 3%', sm:'10px 7%', md:'0.75em 4%'}}
                     >
                         {
                             albumList.map((value) => {
@@ -32,9 +31,14 @@ export default function Album({ params }) {
                             })
                         }
                     </TabList>
-            </Tabs> */}
-            
-            <Gallery tab={tab.query} />
-        </Fragment>
+            </Tabs>
+
+            <Box
+                mt={{base:'162px', sm:'158px', md:'10.25em'}}
+                p={{base:'0', sm:'0', md:'1em 0.5em'}}
+            >
+                <Gallery tab={tab.query} />
+            </Box>
+        </Box>
     );
 }
