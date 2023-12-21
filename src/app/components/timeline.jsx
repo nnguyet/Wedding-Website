@@ -27,8 +27,10 @@ export const Timeline = () => {
                         fontWeight={{base:'300'}}
                         lineHeight={{base:'1.5em', md:'2.125em'}}
                     >
-                        Nhà trai & nhà gái trân trọng thông báo
-                        <br />
+                        Nhà trai & nhà gái trân trọng thông báo{' '}
+                        <Show above='md'>
+                            <br />
+                        </Show>
                         tin vui về lễ thành hôn của con chúng tôi:
                         <br />
                         Được cử hành tại tư gia.
