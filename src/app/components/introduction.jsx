@@ -8,10 +8,9 @@ export const Introduction = () => {
             fontStyle={{base:'italic'}}
         >
             <Text
-                fontSize={{ base: "1.25em", md: "1.875em" }}
+                fontSize={{ base: "1.625em", sm:'1.75em', md: "1.875em" }}
                 textAlign={{base:'center'}}
                 pb={{ base: "0.5em", sm: "0.5em" }}
-                px={{ base: "2em", sm: "0" }}
             >
                 Ngày mình có nhau
             </Text>
@@ -19,7 +18,7 @@ export const Introduction = () => {
                 textAlign={{base:'center'}}
                 lineHeight={{ base: "1.5em", md:'1.5em' }}
                 fontSize={{ base: "1em", md:'1.25em' }}
-                w={{md:'60%'}}
+                w={{md:'80%', lg:'60%'}}
                 m={{base:'auto'}}
             >
                 Chúng mình đã dành hơn nửa năm để lên kế hoạch,
