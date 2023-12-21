@@ -34,8 +34,7 @@ export default function Album({ params }) {
             </Tabs>
 
             <Box
-                mt={{base:'162px', sm:'158px', md:'10.25em'}}
-                p={{base:'0', sm:'0', md:'1em 0.5em'}}
+                p={{base:'0', sm:'0', md:'4em 0.5em 1em'}}
             >
                 <Gallery tab={tab.query} />
             </Box>

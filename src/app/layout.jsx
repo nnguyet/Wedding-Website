@@ -1,6 +1,7 @@
 // These styles apply to every route in the application
 import './globals.css';
 import { Providers } from "./providers";
+import { Box } from '@chakra-ui/react';
 import { Analytics } from '@vercel/analytics/react';
 import { WindSong, Lobster } from "next/font/google";
 import { Header, Footer } from "./components";
@@ -30,7 +31,9 @@ export default function RootLayout({ children }) {
             <body>
                 <Providers>
                     <Header />
-                    {children}
+                    <Box p={{base:'1em 0 0', md:'6.875em 0 0'}}>
+                        {children}
+                    </Box>
                     <Footer />
                     <Analytics />
                 </Providers>

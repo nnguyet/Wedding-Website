@@ -40,20 +40,6 @@ export const Title = () => {
                     Minh Ngọc
                 </Text>
             </Heading>
-            {/* <Box
-                borderRadius={{base:'1.5em'}}
-                bg={{base:'pink.default'}}
-                padding={{base:'0.1em 1em 0.2em 1em', md:'0.25em 2.5em 0.28em'}}
-                mt={{base:'0.5em', sm:'0.3em', md:'0.5em'}}
-            >
-                <Text
-                    textAlign={{base:'center'}}
-                    fontSize={{base:'1.25em', sm:'1.4em', md:'1.5em'}}
-                    className='font-lobster'
-                >
-                    You{`'`}re my serendipity
-                </Text>
-            </Box> */}
             <Navigation />
         </Flex>
     )

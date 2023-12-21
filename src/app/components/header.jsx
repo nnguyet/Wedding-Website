@@ -12,6 +12,7 @@ export const Header = () => {
             top={{base:'0'}}
             left={{base:'0'}}
             right={{base:'0'}}
+            zIndex={{base:'2'}}
         >
             <Logo />
             <Title />
