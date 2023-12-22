@@ -1,4 +1,4 @@
-import { Image, Flex, Button, Text, Box, Center, Link, Collapse  } from '@chakra-ui/react';
+import { Image, Flex, Button, Text, Box, Center, Link, Collapse } from '@chakra-ui/react';
 import { useDisclosure } from '@chakra-ui/react';
 import NextLink from 'next/link'
 // import for icon
@@ -17,7 +17,7 @@ export const SubMenuItem = ({ content, last=false, subContent, href='/', path='/
             textAlign={{base:'center'}}
             borderBottom={{base:last?'none':'1px solid'}}
             borderBottomColor={{base:'gray.default'}}
-            w={{base:'75%'}}
+            w={{base:'70%'}}
         >
             <Flex
                 position={{base:'relative'}}

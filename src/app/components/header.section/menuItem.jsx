@@ -14,7 +14,7 @@ export const MenuItem = ({ content, last=false, href='/', path='/' }) => {
             textAlign={{base:'center'}}
             borderBottom={{base:last?'none':'1px solid'}}
             borderBottomColor={{base:'gray.default'}}
-            w={{base:'75%'}}
+            w={{base:'70%'}}
         >
             <Link as={NextLink} href={href} className='hover:no-underline'>
                 <Text textColor={path===href?'brown.default':'black'} >
