@@ -7,7 +7,7 @@ config.autoAddCss = false
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
-export const MenuItem = ({ content, last=false, href='/', path='/' }) => {
+export const MenuItem = ({ content, last=false, href='/', path }) => {
     return (
         <Box
             p={{base:'0.75em'}}
