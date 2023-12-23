@@ -35,6 +35,9 @@ dependencies:
   '@fortawesome/react-fontawesome':
     specifier: ^0.2.0
     version: 0.2.0(@fortawesome/fontawesome-svg-core@6.5.1)(react@18.2.0)
+  '@vercel/speed-insights':
+    specifier: ^1.0.2
+    version: 1.0.2
   '@vis.gl/react-google-maps':
     specifier: ^0.4.1
     version: 0.4.1(react-dom@18.2.0)(react@18.2.0)
@@ -1735,6 +1738,11 @@ packages:
     dependencies:
       server-only: 0.0.1
     dev: true
+
+  /@vercel/speed-insights@1.0.2:
+    resolution: {integrity: sha512-y5HWeB6RmlyVYxJAMrjiDEz8qAIy2cit0fhBq+MD78WaUwQvuBnQlX4+5MuwVTWi46bV3klaRMq83u9zUy1KOg==}
+    requiresBuild: true
+    dev: false
 
   /@vis.gl/react-google-maps@0.4.1(react-dom@18.2.0)(react@18.2.0):
     resolution: {integrity: sha512-Dqv9N9mJOmXhDgcFmwyLby3x9diTMxO3D5b7ltAWsoP5aORlQqTITtuZT8IH3PQbyXyA/0fcMGhnfy/sRuVCLg==}

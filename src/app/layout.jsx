@@ -3,6 +3,7 @@ import './globals.css';
 import { Providers } from "./providers";
 import { Box } from '@chakra-ui/react';
 import { Analytics } from '@vercel/analytics/react';
+import { SpeedInsights } from "@vercel/speed-insights/next"
 import { WindSong, Lobster } from "next/font/google";
 import { Header, Footer } from "./components";
  
@@ -35,6 +36,7 @@ export default function RootLayout({ children }) {
                         {children}
                     </Box>
                     <Footer />
+                    <SpeedInsights />
                     <Analytics />
                 </Providers>
             </body>
