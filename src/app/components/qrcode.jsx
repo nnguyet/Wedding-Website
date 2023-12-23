@@ -29,7 +29,7 @@ export const Qrcode = () => {
                             m={{base:'1em', sm:'1em 7%', md:'1em 4em'}}
                         >
                             <Image
-                                src={`/images/qrcode${item}.png`}
+                                src={`/images/qrcode${item}.jpg`}
                                 alt={`QR-Code-${item}`}
                                 borderRadius={{base:'1em'}}
                                 m={{base:'auto'}}
