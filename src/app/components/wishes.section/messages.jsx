@@ -18,7 +18,7 @@ export const Messages = async ({ limit=0, backgroundColor }) => {
                 <Text
                     fontSize={{base:'1em', md:'1.25em'}}
                 >
-                    Xảy ra lỗi khi tải dữ liệu. Vui lòng thử lại sau!
+                    Xảy ra lỗi khi tải dữ liệu. Hãy thử lại sau nhé!
                 </Text>
             </Flex>
         )
