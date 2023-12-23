@@ -35,11 +35,10 @@ export const Music = () => {
         <Flex
             m={{base:'0.5em 0.5em 0.75em 0', md:'0 0 0 1em'}}
             fontSize={{base:'0.7em', md:'0.8em'}}
-            className='hover:bg-transparent hover:text-textColor'
+            className='hover:bg-transparent hover:text-textColor hover:cursor-pointer'
             color={{base:'pink.light'}}
             border={{base:'2px solid white'}}
             borderRadius={{base:'50%'}}
-            // size={{base:'sm', sm:'sm'}}
             justifyContent={'center'}
             alignItems={'center'}
             w={{base:'2.5em'}}
@@ -50,7 +49,7 @@ export const Music = () => {
             <audio ref={musicAudio} src="/music/Beautiful-In-White.mp3" loop />
             <Flex
                 ref={play}
-                // m={{base:'0.1em 0 0 0.2em'}}
+                m={{base:'0.08em 0 0 0.2em', md:'0 0 0 0.1em'}}
                 w={'100%'}
                 justifyContent={'center'}
                 alignItems={'center'}
@@ -61,7 +60,7 @@ export const Music = () => {
             <Flex
                 ref={pause}
                 className='hidden'
-                // m={{base:'0.1em 0 0'}}
+                // m={{base:'0', md:'0.125em 0 0'}}
                 w={'100%'}
                 justifyContent={'center'}
                 alignItems={'center'}
