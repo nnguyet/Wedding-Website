@@ -5,26 +5,26 @@ export const Gallery = () => {
         <Flex
             bg={'pink.light'}
             w={'100%'}
-            p={{base:'1em 0.25em 1.5em', md:'0 0.5em 2em', lg:'0 4em 2em'}}
-            justifyContent={{base:'space-around', sm:'center', md:'space-around'}}
+            p={{base:'1em 0.25em 1.5em', md:'0 0.5em 2em', lg:'0 2% 2em', xl:'0 4em 2em', '2xl':'0 calc(5em + (100% - 90em) / 2) 2em'}}
+            justifyContent={{base:'space-around', sm:'center', lg:'space-around'}}
             alignItems={'center'}
             fontSize={{base:'16px'}}
         >
             <Show above='md'>
                 <Flex>
                     <Box>
-                    <Image
+                        <Image
                             src='/gallery/img9.jpg'
                             alt='image'
-                            w={{md:'6.75em', lg:'11em'}}
+                            w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             mb={{md:'0.25em'}}
                             objectFit={'cover'}
                         />
                         <Image
                             src='/gallery/img8.jpg'
                             alt='image'
-                            w={{md:'6.75em', lg:'11em'}}
-                            h={{lg:'15.5em'}}
+                            w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
+                            h={{lg:'12.5em', xl:'15.5em'}}
                             objectFit={'cover'}
                         />
                     </Box>
@@ -35,7 +35,7 @@ export const Gallery = () => {
                         <Image
                             src='/gallery/img7.jpg'
                             alt='image'
-                            w={{md:'10.5em', lg:'16.25em'}}
+                            w={{md:'10.5em', lg:'13em', xl:'16.25em'}}
                             objectFit={'cover'}
                             mb={{md:'0.25em'}}
                         />
@@ -43,14 +43,14 @@ export const Gallery = () => {
                             <Image
                                 src='/gallery/img5.jpg'
                                 alt='image'
-                                w={{md:'5.125em', lg:'8em'}}
+                                w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 mr={{md:'0.25em'}}
                                 objectFit={'cover'}
                             />
                             <Image
                                 src='/gallery/img6.jpg'
                                 alt='image'
-                                w={{md:'5.125em', lg:'8em'}}
+                                w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 objectFit={'cover'}
                             />
                         </Flex>
@@ -100,8 +100,9 @@ export const Gallery = () => {
             <Text
                 textAlign={{base:'center'}}
                 fontStyle={{base:'italic'}}
-                fontSize={{ base: "0.75em", sm:'1em', md:'0.875em', lg: "1.25em" }}
-                lineHeight={{ base: "2em", sm:'2.5em', md: "2em" }}
+                fontSize={{ base: "0.75em", sm:'1em', md:'0.875em', lg:'1.1em', xl: "1.25em" }}
+                lineHeight={{ base: "2em", sm:'2.5em', md: "2em", lg:'2.25em' }}
+                mx={{base:'0', md:'calc(0.65em + min((100% - 47rem) / 2, 4em))', lg:'0', xl:'1em'}}
             >
                 You{'\''}re my serendipity
                 <br />
@@ -121,21 +122,21 @@ export const Gallery = () => {
                             <Image
                                 src='/gallery/img5.jpg'
                                 alt='image'
-                                w={{md:'5.125em', lg:'8em'}}
+                                w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 mr={{md:'0.25em'}}
                                 objectFit={'cover'}
                             />
                             <Image
                                 src='/gallery/img6.jpg'
                                 alt='image'
-                                w={{md:'5.125em', lg:'8em'}}
+                                w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 objectFit={'cover'}
                             />
                         </Flex>                    
                         <Image
                             src='/gallery/img7.jpg'
                             alt='image'
-                            w={{md:'10.5em', lg:'16.25em'}}
+                            w={{md:'10.5em', lg:'13em', xl:'16.25em'}}
                             objectFit={'cover'}
                             mt={{md:'0.25em'}}
                         />
@@ -145,14 +146,14 @@ export const Gallery = () => {
                         <Image
                             src='/gallery/img8.jpg'
                             alt='image'
-                            w={{md:'6.75em', lg:'11em'}}
-                            h={{lg:'15.5em'}}
+                            w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
+                            h={{lg:'12.5em', xl:'15.5em'}}
                             objectFit={'cover'}
                         />
                         <Image
                             src='/gallery/img9.jpg'
                             alt='image'
-                            w={{md:'6.75em', lg:'11em'}}
+                            w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             mt={{md:'0.25em'}}
                             objectFit={'cover'}
                         />
