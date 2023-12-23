@@ -31,7 +31,7 @@ export default function RootLayout({ children }) {
             <body>
                 <Providers>
                     <Header />
-                    <Box p={{base:'9.25em 0 0', sm:'9.75em 0 0', md:'6.875em 0 0'}}>
+                    <Box p={{base:'8.875em 0 0', sm:'9.375em 0 0', md:'6.875em 0 0'}}>
                         {children}
                     </Box>
                     <Footer />
