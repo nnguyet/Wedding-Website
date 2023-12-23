@@ -3,7 +3,7 @@ import { Box, Text, Center } from '@chakra-ui/react'
 export const Introduction = () => {
     return (
         <Box
-            p={{base:'1em', md:'2em'}}
+            p={{base:'1em 0', md:'2em 0'}}
             bg={{base:'pink.dark'}}
             fontStyle={{base:'italic'}}
         >
@@ -18,7 +18,8 @@ export const Introduction = () => {
                 textAlign={{base:'center'}}
                 lineHeight={{ base: "1.5em", md:'1.5em' }}
                 fontSize={{ base: "1em", md:'1.25em' }}
-                w={{md:'80%', lg:'60%'}}
+                w={{base:'100%', md:'33em', lg:'38em', xl:'48em'}}
+                p={{base:'0 0.375em', sm:'0 1em', md:'0'}}
                 m={{base:'auto'}}
             >
                 Chúng mình đã dành hơn nửa năm để lên kế hoạch,
@@ -27,15 +28,15 @@ export const Introduction = () => {
                  nhưng chúng mình vui khi được thực hiện hóa ước mơ cùng nhau.
             </Text>
             <Text
-                p={{base:'0.5em 0 0', md:'0.75em 0 0'}}
+                p={{base:'0.5em 0.5em 0', sm:'0.75em 1em 0', md:'0.75em 0 0'}}
                 textAlign={{base:'center'}}
                 lineHeight={{ base: "1.5em", md:'1.5em' }}
                 fontSize={{ base: "1em", md:'1.25em' }}
-                w={{md:'80%', lg:'60%'}}
+                w={{base:'100%', md:'35em', lg:'38em', xl:'44em'}}
                 m={{base:'auto'}}
             >
                 Đó sẽ một ngày gió nhẹ, có nắng vàng, và chúng mình bên nhau,
-                    bên những người thương nhất, được họ chứng kiến và cứ thế trở thành vợ chồng.
+                 bên những người thương nhất, được họ chứng kiến và cứ thế trở thành vợ chồng.
             </Text>
         </Box>
     )
