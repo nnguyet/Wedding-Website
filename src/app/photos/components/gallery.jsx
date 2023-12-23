@@ -13,13 +13,12 @@ export const Gallery = ({ tab }) => {
                         justifyContent={{base:'center'}}
                         alignItems={{base:'center'}}
                         w={{base:'100%'}}
-                        minH={{base:'100vh', sm:'40vh', md:'35vh'}}
+                        minH={{base:'35vh'}}
                     >
                         <Text
                             textAlign={{base:'center'}}
-                            w={{base:'85%'}}
-                            fontSize={{base:'24px', sm:'32px', md:'40px'}}
-                            m={{base:'auto'}}
+                            w={{base:'100%'}}
+                            fontSize={{base:'1.5em', sm:'32px', md:'40px'}}
                             flexWrap={{base:'wrap'}}
                         >
                             Đợi tụi mình đăng hình sau nhé!

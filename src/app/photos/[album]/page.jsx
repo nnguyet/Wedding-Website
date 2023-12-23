@@ -19,11 +19,11 @@ export default function Album({ params }) {
                     <TabList
                         flexWrap={{base:'wrap'}}
                         position={{base:'fixed'}}
-                        top={{base:'56px', md:'6.75em'}}
+                        top={{base:'8.875em', sm:'9.375em', md:'6.75em'}}
                         left={{base:'0'}}
                         right={{base:'0'}}
                         bg={{base:'pink.light'}}
-                        p={{base:'10px 3%', sm:'10px 7%', md:'0.75em 4%'}}
+                        p={{base:'0.5em 3%', sm:'0.5em 7%', md:'0.75em 4%'}}
                     >
                         {
                             albumList.map((value) => {
@@ -34,7 +34,7 @@ export default function Album({ params }) {
             </Tabs>
 
             <Box
-                p={{base:'0', sm:'0', md:'4em 0.5em 1em'}}
+                p={{base:'6.125em 0.5em 1em', sm:'6em 0.5em 1em', md:'4em 0.5em 1em'}}
             >
                 <Gallery tab={tab.query} />
             </Box>
