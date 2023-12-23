@@ -9,7 +9,7 @@ export const Title = () => {
             flexDir={{base:'column'}}
             pb={{md:'1em'}}
             mt={{base:'0.5em', md:'1.2em'}}
-            mr={{base:'0', md:'1.5em'}}
+            // mr={{base:'0', md:'1.5em'}}
         >
             <Heading
                 display={{base:'flex'}}

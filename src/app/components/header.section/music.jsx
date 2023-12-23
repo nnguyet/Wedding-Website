@@ -33,7 +33,7 @@ export const Music = () => {
 
     return (
         <Flex
-            m={{base:'0.5em 0.5em 0.75em 0', md:'0 0 0 1em'}}
+            // m={{base:'0.5em 0.5em 0.75em 0', md:'0 0 0 1em'}}
             fontSize={{base:'0.7em', md:'0.8em'}}
             className='hover:bg-transparent hover:text-textColor hover:cursor-pointer'
             color={{base:'pink.light'}}
