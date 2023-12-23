@@ -44,6 +44,7 @@ export const Music = () => {
             w={{base:'2.5em'}}
             px={{base:'0.5em', md:'1em'}}
             mb={{base:'0.75em', md:'0'}}
+            mr={{base:'1em', md:'0'}}
             aspectRatio={{base:'1/1'}}
             onClick={handleMusic}
         >
