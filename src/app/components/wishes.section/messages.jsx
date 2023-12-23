@@ -9,7 +9,19 @@ export const Messages = async ({ limit=0, backgroundColor }) => {
     );
 
     if (!mess.ok) {
-        throw new Error('Failed to fetch data');
+        return (
+            <Flex
+                justifyContent={{base:'center'}}
+                alignItems={{base:'center'}}
+                py={{base:'1em'}}
+            >
+                <Text
+                    fontSize={{base:'1em', md:'1.25em'}}
+                >
+                    Xảy ra lỗi khi tải dữ liệu. Vui lòng thử lại sau!
+                </Text>
+            </Flex>
+        )
     }
 
     let data = await mess.json();
