@@ -12,15 +12,15 @@ export const Timebar = () => {
                 fontWeight={{base:'500'}}
                 fontStyle={{base:'italic'}}
                 textAlign={{base:'center'}}
-                fontSize={{base:'1.25em', md:'1.5em'}}
+                fontSize={{base:'1.75em'}}
             >
                 Timeline Tiệc Cưới
             </Text>
 
             <Box
                 position={{md:'relative'}}
-                mt={{base:'1.25em', sm:'1.25em', md:'8.75em'}}
-                mx={{base:'2.5em', md:'2em'}}
+                mt={{base:'1.25em', md:'11.5em'}}
+                mx={{base:'0.5em', md:'2em'}}
                 >
                 <Show above='md'>
                     <Box
