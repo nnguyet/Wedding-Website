@@ -19,7 +19,7 @@ export const Timebar = () => {
 
             <Box
                 position={{md:'relative'}}
-                mt={{base:'1.25em', md:'11.5em'}}
+                mt={{base:'1.25em', md:'11.5em', lg:'10.5em'}}
                 mx={{base:'0.5em', md:'2em'}}
                 >
                 <Show above='md'>

@@ -30,18 +30,18 @@ export const Time = ({ico, title, message, time, dir='column-reverse', top, left
             >
                 <Text
                     color={{base:'yellow.gold'}}
-                    fontSize={{base:'1.125em', md:'1.25em'}}
+                    fontSize={{base:'1.125em'}}
                 >
                     {time}
                 </Text>
                 <Text
                     fontWeight={{base:'500'}}
-                    fontSize={{base:'1.25em', md:'1.375em'}}
+                    fontSize={{base:'1.25em'}}
                 >
                     {title}
                 </Text>
                 <Text
-                    fontSize={{base:'1.125em', md:'1.25em'}}
+                    fontSize={{base:'1.125em'}}
                     fontStyle={{base:'italic'}}
                     w={{base:'100%', lg:'23em'}}
                 >
