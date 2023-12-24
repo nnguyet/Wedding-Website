@@ -4,27 +4,28 @@ import { Flex, Box, Card, CardBody, CardFooter, Text, Divider } from '@chakra-ui
 import { Message } from './message'
 
 export const Messages = async ({ limit=0, backgroundColor }) => {
-    const mess = await fetch(`https://api.jsonstorage.net/v1/json/${process.env.JSON_DB_USER}/${process.env.JSON_DB_ITEM}?apiKey=${process.env.JSON_DB_API_KEY}`,
-        { cache: 'no-store' }
-    );
+    // const mess = await fetch(`https://api.jsonstorage.net/v1/json/${process.env.JSON_DB_USER}/${process.env.JSON_DB_ITEM}?apiKey=${process.env.JSON_DB_API_KEY}`,
+    //     { cache: 'no-store' }
+    // );
 
-    if (!mess.ok) {
-        return (
-            <Flex
-                justifyContent={{base:'center'}}
-                alignItems={{base:'center'}}
-                py={{base:'1em'}}
-            >
-                <Text
-                    fontSize={{base:'1em', md:'1.25em'}}
-                >
-                    Xảy ra lỗi khi tải dữ liệu. Hãy thử lại sau nhé!
-                </Text>
-            </Flex>
-        )
-    }
+    // if (!mess.ok) {
+    //     return (
+    //         <Flex
+    //             justifyContent={{base:'center'}}
+    //             alignItems={{base:'center'}}
+    //             py={{base:'1em'}}
+    //         >
+    //             <Text
+    //                 fontSize={{base:'1em', md:'1.25em'}}
+    //             >
+    //                 Xảy ra lỗi khi tải dữ liệu. Hãy thử lại sau nhé!
+    //             </Text>
+    //         </Flex>
+    //     )
+    // }
 
-    let data = await mess.json();
+    // let data = await mess.json();
+    let data = [];
     if (limit != 0) {
         data = data.slice(-limit);
     }

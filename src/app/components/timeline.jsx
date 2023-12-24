@@ -8,10 +8,10 @@ export const Timeline = () => {
             bg={'pink.light'}
         >
             <Grid
-                px={{base:'2em', sm:'48px', md:'2%', lg:'10%', xl:'13%'}}
+                px={{base:'2em', sm:'1em', md:'1%', lg:'8%', xl:'13%'}}
                 py={{base:'2em'}}
                 templateColumns={{base:'repeat(1, 1fr)', md:'repeat(3, 1fr)'}}
-                gap={{base:'0.5em', md:'1em'}}
+                gap={{base:'0.5em'}}
             >
                 <Party img='/images/img1.jpg' title='Lễ Gia tiên' info='7:00 | Thứ Năm - 18.01.2024' place='Tại Tư gia'/>
                 <Party img='/images/img1.jpg' title='Tiệc Vu Quy' info='17:30 | Thứ Tư - 17.01.2024' place='Sảnh Diamond - Aroma Center' address='119 Hoàng Hoa Thám, P. Thắng Tam, TP. Vũng Tàu' margin='0.25em'/>
@@ -19,19 +19,18 @@ export const Timeline = () => {
                 
                 <GridItem
                     rowStart={{base:2}}
-                    pb={{base:'1em', md:'0'}}
+                    pb={{base:'1.5em', md:'0'}}
+                    px={{base:'1em', sm:'2em', md:'0'}}
                 >
                     <Text
                         textAlign={{base:'center'}}
-                        fontSize={{base:'1em', md:'0.875em'}}
+                        fontSize={{base:'1em', md:'0.875em', lg:'0.9375em'}}
                         fontWeight={{base:'300'}}
                         lineHeight={{base:'1.5em', md:'2.125em'}}
+                        maxW={{base:'100%', sm:'20em', md:'20.5em'}}
+                        m={{base:'0 auto'}}
                     >
-                        Nhà trai & nhà gái trân trọng thông báo{' '}
-                        <Show above='md'>
-                            <br />
-                        </Show>
-                        tin vui về lễ thành hôn của con chúng tôi:
+                        Nhà trai & nhà gái trân trọng thông báo tin vui về lễ thành hôn của con chúng tôi:
                         <br />
                         Được cử hành tại tư gia.
                         <br />
@@ -45,27 +44,24 @@ export const Timeline = () => {
                 <GridItem
                     colSpan={{base:1, md:2}}
                     textAlign={{base:'center'}}
-                    fontSize={{base:'1em', md:'0.875em'}}
+                    fontSize={{base:'1em', md:'0.875em', lg:'0.9375em'}}
                     fontWeight={{base:'300'}}
                     lineHeight={{base:'1.5em', md:'2.125em'}}
                     pt={{base:'0.25em', md:'0'}}
                 >
-                    <Text>
-                        Trân trọng kính mời/thân mời các khách quý đến dự{' '}
-                        <Show above='md'>
-                            <br />
-                        </Show>
-                        buổi tiệc tối mừng cưới thân mật của Thành Việt & Minh Ngọc tại:
+                    <Text
+                        px={{base:'0', md:'2em'}}
+                        minW={{base:'100%', sm:'27em', md:'50%'}}
+                        maxW={{base:'100%', sm:'28em', md:'31em', xl:'36em'}}
+                        m={{base:'0 auto'}}
+                    >
+                        Trân trọng kính mời/thân mời các khách quý đến dự buổi tiệc tối mừng cưới thân mật của Thành Việt & Minh Ngọc tại:
                         <br />
                         VT: Aroma Center
                         <br />
                         SG: Pavillon Tân Sơn Nhất 
                         <br />
-                        Sự có mặt của Quý khách tại bữa tiệc tối ấm cúng này{' '}
-                        <Show above='md'>
-                            <br />
-                        </Show>
-                        là niềm vinh hạnh cho Việt, Ngọc cùng gia đình
+                        Sự có mặt của Quý khách tại bữa tiệc tối ấm cúng này là niềm vinh hạnh cho Việt, Ngọc cùng gia đình
                     </Text>
                     <Link
                         as={NextLink}
@@ -75,9 +71,9 @@ export const Timeline = () => {
                         }}
                     >
                         <Box
-                            m={{base:'1em auto 0', md:'1.5em auto 0'}}
+                            m={{base:'1.5em auto 0', md:'1.5em auto 0'}}
                             borderRadius={{base:'1.5em'}}
-                            fontSize={{base:'1em', md:'1em'}}
+                            fontSize={{base:'1em'}}
                             bg={'btn.dark'}
                             color={'white'}
                             w={{base:'60%', md:'25%'}}
