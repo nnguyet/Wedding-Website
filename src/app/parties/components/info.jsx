@@ -8,6 +8,8 @@ export const Info = ({ place, time, hall, address }) => {
         >
             <Text
                 fontWeight={{base:'500'}}
+                fontSize={{base:'1.25em'}}
+                pb={{base:'0.25em'}}
             >
                 {place}
             </Text>
