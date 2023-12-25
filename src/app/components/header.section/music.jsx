@@ -33,7 +33,6 @@ export const Music = () => {
 
     return (
         <Flex
-            // m={{base:'0.5em 0.5em 0.75em 0', md:'0 0 0 1em'}}
             fontSize={{base:'0.7em', md:'0.8em'}}
             className='hover:bg-transparent hover:text-textColor hover:cursor-pointer'
             color={{base:'pink.light'}}
@@ -44,11 +43,10 @@ export const Music = () => {
             w={{base:'2.6em'}}
             px={{base:'0.5em', md:'1em'}}
             mb={{base:'0.75em', md:'0'}}
-            // mr={{base:'1em', md:'0'}}
             aspectRatio={{base:'1/1'}}
             onClick={handleMusic}
         >
-            <audio ref={musicAudio} src="/music/Beautiful-In-White.mp3" loop />
+            <audio ref={musicAudio} src="/music/audio.mp3" loop />
             <Flex
                 ref={play}
                 m={{base:'0.08em 0 0 0.2em', md:'0 0 0 0.1em'}}
@@ -62,7 +60,6 @@ export const Music = () => {
             <Flex
                 ref={pause}
                 className='hidden'
-                // m={{base:'0', md:'0.125em 0 0'}}
                 w={'100%'}
                 justifyContent={'center'}
                 alignItems={'center'}
