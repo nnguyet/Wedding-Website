@@ -10,12 +10,13 @@ export default function HomeError({ error, reset }) {
 		>
 			<Heading
 				as='h1'
-				m={{base:'36px auto', md:'128px auto 48px'}}
+				m={{base:'2.25rem auto', md:'8rem auto 3rem'}}
 				textAlign={{base:'center'}}
 			>
 				Xảy ra lỗi khi tải trang!
 			</Heading>
 			<Button
+				mb={{base:'2rem', md:'6rem'}}
 				onClick={
 					(e) => {
 						e.preventDefault()
