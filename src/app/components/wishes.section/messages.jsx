@@ -1,6 +1,6 @@
 'use server';
 
-import { Flex, Box, Card, CardBody, CardFooter, Text, Divider } from '@chakra-ui/react'
+import { Flex, Text } from '@chakra-ui/react'
 import { Message } from './message'
 
 export const Messages = async ({ limit=0, backgroundColor }) => {
