@@ -6,7 +6,10 @@ export const Nav = ({ title, query }) => {
         <Tab
             m={{base:'auto'}}
             w={{base:'40%', sm:'35%', md:'auto'}}
-            className='hover:bg-lightpink hover:text-red-900'
+            _hover={{
+                bg:'#ffedf2',
+                color:'#7c2d12'
+            }}
         >
             <Link
                 as={NextLink}
