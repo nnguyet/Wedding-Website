@@ -7,7 +7,7 @@ export const Info = ({ place, time, hall, address }) => {
             pb={{base:'1em'}}
         >
             <Text
-                fontWeight={{base:'500'}}
+                fontWeight={{base:'600'}}
                 fontSize={{base:'1.25em'}}
                 pb={{base:'0.25em'}}
             >

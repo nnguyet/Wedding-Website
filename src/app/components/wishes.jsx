@@ -35,6 +35,7 @@ export const Wishes = async () => {
                         w={{base:'75%', sm:'100%'}}
                         textAlign={{base:'center'}}
                         m={{base:'0 0 8px', sm:'4px 0 8px', md:'0 8px'}}
+                        fontSize={{base:'1.0625em', md:'1.125em'}}
                     >
                         Xem thêm những lời chúc khác ở đây nè...
                     </Text>

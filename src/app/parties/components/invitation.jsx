@@ -16,14 +16,15 @@ export const Invitation = () => {
                 fontSize={{base:'3.5em'}}
                 fontWeight={{base:'bold'}}
                 pb={{base:'0.25em' , md:'0.5em'}}
-                // pt={{base:'0', md:'0.5em'}}
             >
                 Tiệc mừng cưới
             </Text>
 
-            <Text
+            <Flex
                 fontSize={{base:'1em'}}
-                // p={{base:'0 2em', md:'0'}}
+                justifyContent={{base:'center'}}
+                alignItems={{base:'center'}}
+                flexDir={{base:'column'}}
             >
                 <Text>
                     Trong không khí rộn ràng của những ngày cuối năm, trân trọng kính mời các khách quý đến dự buổi tiệc tối mừng cưới cùng Việt, Ngọc & gia đình.
@@ -37,7 +38,7 @@ export const Invitation = () => {
                 <Text>
                     Cảm ơn vì đã là một phần không thể thiếu trong ngày trọng đại này.
                 </Text>
-            </Text>
+            </Flex>
         </Flex>
     )
 }
