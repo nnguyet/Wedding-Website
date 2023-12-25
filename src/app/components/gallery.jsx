@@ -100,9 +100,9 @@ export const Gallery = () => {
             <Text
                 textAlign={{base:'center'}}
                 fontStyle={{base:'italic'}}
-                fontSize={{ base: "0.75em", sm:'1em', md:'0.875em', lg:'1.1em', xl: "1.25em" }}
+                fontSize={{ base: "0.75em", sm:'1em', md:'0.875em', lg:'1.1em'}}
                 lineHeight={{ base: "2em", sm:'2.5em', md: "2em", lg:'2.25em' }}
-                mx={{base:'0', md:'calc(0.65em + min((100% - 47rem) / 2, 4em))', lg:'0', xl:'1em'}}
+                mx={{base:'0', md:'calc(0.65em + min((100% - 47rem) / 2, 4em))', lg:'0', xl:'0.5em'}}
             >
                 You{'\''}re my serendipity
                 <br />
