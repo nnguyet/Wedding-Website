@@ -8,14 +8,14 @@ export default function Parties() {
             bg={{base:'pink.light'}}
         >
             <Invitation />
-
+{/* 
             <Flex
                 p={{base:'1em', md:'3em 0 0'}}
                 justifyContent={{base:'center'}}
                 alignItems={{base:'center'}}
             >
                 <Image src="/images/card.png" alt='invitation-card'/>
-            </Flex>
+            </Flex> */}
 
             <LocationMap />
             <Timebar />
