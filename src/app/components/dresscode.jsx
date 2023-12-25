@@ -1,4 +1,4 @@
-import { Image, Flex, Heading, Box, Text, Divider, Show, Center, Hide } from '@chakra-ui/react'
+import { Image, Flex, Box, Text } from '@chakra-ui/react'
 
 
 export const Dresscode = () => {

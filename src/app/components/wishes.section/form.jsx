@@ -1,6 +1,6 @@
 'use client';
 
-import { Flex, Box, Input, Heading, Center, Text, Textarea, Button, IconButton, useToast } from '@chakra-ui/react'
+import { Flex, Input, Heading, Center, Text, Textarea, IconButton, useToast } from '@chakra-ui/react'
 import { useState, useRef } from 'react';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'

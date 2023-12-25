@@ -1,4 +1,4 @@
-import { Box, Text, Flex } from '@chakra-ui/react'
+import { Text, Flex } from '@chakra-ui/react'
 
 export const Invitation = () => {
     return (
@@ -16,6 +16,7 @@ export const Invitation = () => {
                 fontSize={{base:'3.5em'}}
                 fontWeight={{base:'bold'}}
                 pb={{base:'0.25em' , md:'0.5em'}}
+                className='font-lobster'
             >
                 Tiệc mừng cưới
             </Text>

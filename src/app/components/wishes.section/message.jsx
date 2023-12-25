@@ -5,33 +5,29 @@ import { Box,
         CardBody,
         CardFooter,
         Text,
-        Divider,
-        Button
+        Divider
     } from '@chakra-ui/react'
 import {
         Modal,
         ModalOverlay,
         ModalContent,
-        ModalHeader,
-        ModalCloseButton,
         ModalBody,
         ModalFooter
     } from '@chakra-ui/react'
-import { Form } from './form'
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faQuoteRight } from '@fortawesome/free-solid-svg-icons'
 import { useDisclosure } from '@chakra-ui/react'
-import React from 'react'
+import { Fragment } from 'react'
 
 export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
     const { isOpen, onOpen, onClose } = useDisclosure()
     const color = '#fce6ea'
 
     return (
-        <React.Fragment>
+        <Fragment>
             <Card
                 w={{base:'40%', sm:'28%', md:'23%', lg:'22%', xl:'15%'}}
                 backgroundColor={{base:color}}
@@ -127,6 +123,6 @@ export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
 
                 </ModalContent>
             </Modal>
-        </React.Fragment>
+        </Fragment>
     )
 }

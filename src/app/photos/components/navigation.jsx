@@ -1,4 +1,4 @@
-import { Tab, Box, Link } from '@chakra-ui/react'
+import { Tab, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 export const Nav = ({ title, query }) => {

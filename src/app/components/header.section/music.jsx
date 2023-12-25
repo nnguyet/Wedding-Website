@@ -1,7 +1,7 @@
 'use client';
 
 import { useRef } from 'react';
-import { Button, Box, Flex } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 // import for icon
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'

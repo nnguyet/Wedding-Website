@@ -1,4 +1,4 @@
-import { Image, Box, Heading, Center, Text, Flex, Card, CardBody, Link } from '@chakra-ui/react'
+import { Image, Heading, Card, CardBody, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 export const Album = ({img, title, href='/photos', query='prewedding'}) => {    

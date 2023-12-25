@@ -1,11 +1,9 @@
-import { Image, Flex, Button, Text, Box, Center, Link } from '@chakra-ui/react'
+import { Text, Box, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 // import for icon
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
-import { faAngleDown, faAngleUp } from '@fortawesome/free-solid-svg-icons'
 
 export const MenuItem = ({ content, last=false, href='/', path }) => {
     return (

@@ -4,20 +4,6 @@ module.exports = {
     './src/**/*.{js,ts,jsx,tsx,mdx}',
   ],
   theme: {
-    colors: {
-      transparent: 'transparent',
-      'pink': {
-        light: '#FFFAF5',
-        DEFAULT: '#F7E9E8',
-        dark: '#E3C5C1',
-      },
-      'textColor': {
-        DEFAULT: '#645553',
-      },
-      'brown': {
-        DEFAULT: '#A97069',
-    }
-    },
     extend: {
       keyframes: {
         shake: {
@@ -30,7 +16,6 @@ module.exports = {
         shake: 'shake 1s linear infinite',
       },
       fontFamily: {
-        windsong: ['var(--font-windsong)'],
         lobster: ['var(--font-lobster)'],
         ephesis: ['var(--font-ephesis)'],
         nunito: ['var(--font-nunito)'],

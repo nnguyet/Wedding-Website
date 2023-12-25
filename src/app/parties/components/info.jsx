@@ -1,4 +1,4 @@
-import { Heading, Box, Text, Grid, GridItem, Button, Link, Flex } from '@chakra-ui/react'
+import { Box, Text } from '@chakra-ui/react'
 
 export const Info = ({ place, time, hall, address }) => {
     return (

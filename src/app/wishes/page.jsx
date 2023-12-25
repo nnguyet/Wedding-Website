@@ -1,4 +1,4 @@
-import { Image, Box, Text, Heading, Tabs, Tab, TabList, TabPanels, TabPanel, Center } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 import { Form, Messages } from '../components/wishes.section';
 import { Qrcode } from '../components';
 

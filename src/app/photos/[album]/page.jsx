@@ -1,5 +1,4 @@
-import { Fragment } from 'react';
-import { Image, Box, Text, Heading, Tabs, Tab, TabList, TabPanels, TabPanel, Center } from '@chakra-ui/react'
+import { Box, Tabs, TabList } from '@chakra-ui/react'
 import { albumList } from '../../components';
 import { Nav, Gallery } from '../components';
 

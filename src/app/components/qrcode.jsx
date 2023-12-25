@@ -1,4 +1,4 @@
-import { Image, Box, Heading, Center, Flex, Text } from '@chakra-ui/react'
+import { Image, Box, Flex, Text } from '@chakra-ui/react'
 
 export const Qrcode = () => {
     return (

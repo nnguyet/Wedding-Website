@@ -1,6 +1,6 @@
 'use client';
 
-import { Heading, Box, Text, Grid, GridItem, Button, Link, Flex } from '@chakra-ui/react'
+import { Box, Flex } from '@chakra-ui/react'
 import { Info } from './info';
 
 export const LocationMap = () => {

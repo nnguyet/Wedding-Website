@@ -1,6 +1,6 @@
 'use client';
 
-import { Image, Flex, Button, Text, Box, Center } from '@chakra-ui/react'
+import { Button } from '@chakra-ui/react'
 import { MenuItem } from './menuItem';
 import { albumList } from '../albumList';
 import { SubMenuItem } from './subMenuItem';

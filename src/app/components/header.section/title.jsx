@@ -1,4 +1,4 @@
-import { Image, Flex, Text, Heading, Box } from '@chakra-ui/react'
+import { Image, Flex, Text } from '@chakra-ui/react'
 import { Navigation } from './navigation'
 
 export const Title = () => {

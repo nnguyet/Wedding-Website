@@ -1,4 +1,4 @@
-import { Image, Flex, Heading, Box, Text, Divider, Show, Icon } from '@chakra-ui/react'
+import { Image, Flex, Text } from '@chakra-ui/react'
 
 export const Time = ({ico, title, message, time, dir='column-reverse', top, left, bottom, right, margin}) => {
 

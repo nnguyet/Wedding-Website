@@ -1,4 +1,4 @@
-import { Flex, Box, Text, Link, Center } from '@chakra-ui/react'
+import { Box, Text, Link, Center } from '@chakra-ui/react'
 import { Form, Messages } from './wishes.section'
 import NextLink from 'next/link'
 import { config } from '@fortawesome/fontawesome-svg-core'
@@ -6,15 +6,11 @@ import '@fortawesome/fontawesome-svg-core/styles.css'
 config.autoAddCss = false
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
-// import { promises as fs } from 'fs';
 
 export const Wishes = async () => {
-    // const data = await fs.readdir(process.cwd() + '/public/albums/le-ruoc-dau')
-    // console.log(data)
-
     return (
         <Box
-            p={{base:'3em 1em', md:'3em 1.5em'}}
+            p={{base:'2em 1em', md:'3em 1.5em'}}
             bg={'pink.light'}
         >
             <Form />

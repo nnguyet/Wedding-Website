@@ -2,7 +2,7 @@
 
 import { Box, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
-import { usePathname, useRouter } from 'next/navigation'
+import { usePathname } from 'next/navigation'
 
 export const NavItem = ({ title, href='/' }) => {
     const path = usePathname();

@@ -1,4 +1,4 @@
-import { Heading, Image, Text, Flex, Box, Grid, GridItem, Center } from '@chakra-ui/react'
+import { Text, Box, GridItem } from '@chakra-ui/react'
 
 export const Party = ({ title, info, address, place, margin}) => {
     return (

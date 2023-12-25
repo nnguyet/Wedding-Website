@@ -1,4 +1,4 @@
-import { Box, Flex } from '@chakra-ui/react'
+import { Flex } from '@chakra-ui/react'
 import { NavItem } from './navItem'
 import { SubNavItem } from './subNavItem'
 import { albumList } from '../albumList';

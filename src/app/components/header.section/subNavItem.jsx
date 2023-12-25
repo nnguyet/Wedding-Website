@@ -58,7 +58,6 @@ export const SubNavItem = ({ title, href='/', subContent }) => {
                                     _hover={{
                                         color:'brown.default',
                                     }}
-                                    
                                 >
                                     {item.title}
                                 </Text>

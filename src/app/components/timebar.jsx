@@ -1,4 +1,4 @@
-import { Image, Flex, Heading, Box, Text, Divider, Show, Center, Hide } from '@chakra-ui/react'
+import { Flex, Box, Text, Divider, Show, Center, Hide } from '@chakra-ui/react'
 import { Time, VerticalLine } from './timebar.section'
 
 export const Timebar = () => {

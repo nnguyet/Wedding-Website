@@ -1,4 +1,4 @@
-import { Heading, Box, Text, Grid, GridItem, Button, Link, Show } from '@chakra-ui/react'
+import { Box, Text, Grid, GridItem, Link } from '@chakra-ui/react'
 import { Party } from './timeline.section'
 import NextLink from 'next/link'
 

@@ -4,15 +4,8 @@ import { Providers } from "./providers";
 import { Box } from '@chakra-ui/react';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { WindSong, Lobster, Ephesis, Nunito  } from "next/font/google";
+import { Lobster, Ephesis, Nunito  } from "next/font/google";
 import { Header, Footer } from "./components";
- 
-const windSong = WindSong({
-    subsets: ['latin'],
-    display: 'swap',
-    weight: ['400'],
-    variable: '--font-windsong'
-});
 
 const lobster = Lobster({
     subsets: ['latin'],
@@ -40,7 +33,7 @@ export const metadata = {
  
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={`${windSong.variable} ${lobster.variable} ${ephesis.variable} ${nunito.variable}`}>
+        <html lang="en" className={`${lobster.variable} ${ephesis.variable} ${nunito.variable}`}>
             <body>
                 <Providers>
                     <Header />

@@ -1,4 +1,4 @@
-import { Image, Box, Heading, Center, Flex } from '@chakra-ui/react'
+import { Box, Heading, Center, Flex } from '@chakra-ui/react'
 import { Album } from './photos.section'
 import { albumList } from './albumList'
 

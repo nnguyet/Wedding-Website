@@ -1,5 +1,5 @@
 
-import { Heading, Center, Flex, Button, Text, Show, Link } from '@chakra-ui/react'
+import { Flex, Button, Text, Link } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 export default function NotFound() {
