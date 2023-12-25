@@ -5,7 +5,7 @@ export const Footer = () => {
     return (
         <Box
             bg={{base:'pink.default'}}
-            p={{base:'1.75em 0.5em', md:'1.5em 1em', lg:'1.5em 10em'}}
+            p={{base:'1em 0.5em 0.125em', md:'1em 1em 0.25em', lg:'1.25em 1.5em 0.5em'}}
         >
             <Text
                 textAlign={{base:'center'}}
@@ -27,14 +27,21 @@ export const Footer = () => {
             <Text
                 textAlign={{base:'center'}}
                 fontStyle={{base:'italic'}}
-                fontSize={{base:'1.25em'}}
+                fontSize={{base:'1.125em', md:'1.25em'}}
                 fontWeight={{base:'300'}}
                 m={{base:'auto'}}
+                pb={{base:'0.75em', md:'0.1em'}}
             >
                 Trâm (Emma): 0828.498.209
                 <br />
                 Trân (Ori): 0938.301.168
             </Text>
+            {/* <Text
+                textAlign={{base:'center', md:'right'}}
+                fontSize={{base:'0.75em'}}
+            >
+                Develop by nnguyet
+            </Text> */}
         </Box>
     )
 }
