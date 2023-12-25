@@ -41,10 +41,10 @@ export const Music = () => {
             borderRadius={{base:'50%'}}
             justifyContent={'center'}
             alignItems={'center'}
-            w={{base:'2.5em'}}
+            w={{base:'2.6em'}}
             px={{base:'0.5em', md:'1em'}}
             mb={{base:'0.75em', md:'0'}}
-            mr={{base:'1em', md:'0'}}
+            // mr={{base:'1em', md:'0'}}
             aspectRatio={{base:'1/1'}}
             onClick={handleMusic}
         >

@@ -4,7 +4,7 @@ export const Logo = () => {
     return (
         <Flex
             w={{base:'3.25em', md:'4em'}}
-            mr={{base:'0.75em', md:'0'}}
+            // mr={{base:'0.75em', md:'0'}}
             mt={{base:'0.75em', md:'0'}}
             borderRadius={{base:'50%'}}
             border={{base:'1px dotted white'}}

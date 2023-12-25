@@ -32,6 +32,8 @@ module.exports = {
       fontFamily: {
         windsong: ['var(--font-windsong)'],
         lobster: ['var(--font-lobster)'],
+        ephesis: ['var(--font-ephesis)'],
+        nunito: ['var(--font-nunito)'],
       }
     },
   },

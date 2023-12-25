@@ -10,7 +10,7 @@ export const Navigation = () => {
             borderRadius={{md:'1em'}}
             bg='pink.default'
             p={{md:'0.1em 1.5em'}}
-            mt={{md:'0.5em'}}
+            mt={{md:'0'}}
         >
             <NavItem title='Trang Chủ' />
             <NavItem title='Tiệc Mừng' href='/parties' />
