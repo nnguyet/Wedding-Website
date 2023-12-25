@@ -8,10 +8,10 @@ export const Timeline = () => {
             bg={'pink.light'}
         >
             <Grid
-                px={{base:'2em', sm:'1em', md:'1%', lg:'8%', xl:'13%'}}
+                px={{base:'1em', sm:'0.5em', md:'1%', lg:'5%', xl:'10%'}}
                 py={{base:'2em'}}
                 templateColumns={{base:'repeat(1, 1fr)', md:'repeat(3, 1fr)'}}
-                gap={{base:'0.5em'}}
+                gap={{base:'0.5em', md:'0.25em', lg:'0.5em'}}
             >
                 <Party img='/images/img1.jpg' title='Lễ Gia tiên' info='7:00 | Thứ Năm - 18.01.2024' place='Tại Tư gia'/>
                 <Party img='/images/img1.jpg' title='Tiệc Vu Quy' info='17:30 | Thứ Tư - 17.01.2024' place='Sảnh Diamond - Aroma Center' address='119 Hoàng Hoa Thám, P. Thắng Tam, TP. Vũng Tàu' margin='0.25em'/>
@@ -24,7 +24,7 @@ export const Timeline = () => {
                 >
                     <Text
                         textAlign={{base:'center'}}
-                        fontSize={{base:'1em', md:'0.875em', lg:'0.9375em'}}
+                        fontSize={{base:'1.0625em', md:'0.875em', lg:'1em', xl:'1.125em'}}
                         fontWeight={{base:'300'}}
                         lineHeight={{base:'1.5em', md:'2.125em'}}
                         maxW={{base:'100%', sm:'20em', md:'20.5em'}}
@@ -44,15 +44,15 @@ export const Timeline = () => {
                 <GridItem
                     colSpan={{base:1, md:2}}
                     textAlign={{base:'center'}}
-                    fontSize={{base:'1em', md:'0.875em', lg:'0.9375em'}}
+                    fontSize={{base:'1.0625em', md:'0.875em', lg:'1em', xl:'1.125em'}}
                     fontWeight={{base:'300'}}
                     lineHeight={{base:'1.5em', md:'2.125em'}}
                     pt={{base:'0.25em', md:'0'}}
                 >
                     <Text
-                        px={{base:'0', md:'2em'}}
+                        px={{base:'0.25em', md:'2em'}}
                         minW={{base:'100%', sm:'27em', md:'50%'}}
-                        maxW={{base:'100%', sm:'28em', md:'31em', xl:'36em'}}
+                        maxW={{base:'100%', sm:'28em', md:'32em', xl:'37em'}}
                         m={{base:'0 auto'}}
                     >
                         Trân trọng kính mời/thân mời các khách quý đến dự buổi tiệc tối mừng cưới thân mật của Thành Việt & Minh Ngọc tại:

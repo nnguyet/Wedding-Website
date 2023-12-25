@@ -9,7 +9,7 @@ export const Timebar = () => {
             bg={'pink.light'}
         >
             <Text
-                fontWeight={{base:'500'}}
+                fontWeight={{base:'600'}}
                 fontStyle={{base:'italic'}}
                 textAlign={{base:'center'}}
                 fontSize={{base:'1.75em'}}
@@ -39,6 +39,7 @@ export const Timebar = () => {
                             time='17h30'
                             bottom='calc(100% - 28px)'
                             left='2%'
+                            margin='-0.25em'
                             />
                         <Time
                             ico='/images/ring.svg'
@@ -56,6 +57,7 @@ export const Timebar = () => {
                             time='19h'
                             bottom='calc(100% - 28px)'
                             right='2%'
+                            margin='-0.5em'
                             />
                     </Box>
                 </Show>

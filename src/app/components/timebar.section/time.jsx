@@ -1,6 +1,6 @@
 import { Image, Flex, Heading, Box, Text, Divider, Show, Icon } from '@chakra-ui/react'
 
-export const Time = ({ico, title, message, time, dir='column-reverse', top, left, bottom, right}) => {
+export const Time = ({ico, title, message, time, dir='column-reverse', top, left, bottom, right, margin}) => {
 
     return (
         <Flex
@@ -13,6 +13,7 @@ export const Time = ({ico, title, message, time, dir='column-reverse', top, left
             bottom={{md:bottom}}
             right={{md:right}}
             left={{md:left}}
+            mb={{md:margin}}
         >
             <Image
                 src={ico}
@@ -44,6 +45,7 @@ export const Time = ({ico, title, message, time, dir='column-reverse', top, left
                     fontSize={{base:'1.125em'}}
                     fontStyle={{base:'italic'}}
                     w={{base:'100%', lg:'23em'}}
+                    fontWeight={{base:'300'}}
                 >
                     {message}
                 </Text>

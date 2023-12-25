@@ -30,8 +30,6 @@ const ephesis = Ephesis({
 
 const nunito = Nunito({
     subsets: ['latin'],
-    display: 'swap',
-    weight: ['400'],
     variable: '--font-nunito'
 });
 
