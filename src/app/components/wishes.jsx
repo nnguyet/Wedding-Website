@@ -10,7 +10,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 export const Wishes = async () => {
     return (
         <Box
-            p={{base:'2em 1em', md:'3em 1.5em'}}
+            p={{base:'2em 1em', md:'2em 1.5em'}}
             bg={'pink.light'}
         >
             <Form />

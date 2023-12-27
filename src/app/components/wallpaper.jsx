@@ -5,7 +5,7 @@ export const Wallpaper = () => {
         <Flex
             justifyContent={'center'}
             alignItems={'center'}
-            pt={{base:'0', md:'1em'}}
+            pt={{base:'0', md:'0.5em'}}
             px={{base:'0', md:'3em'}}
             bg={'pink.light'}
         >
@@ -20,6 +20,7 @@ export const Wallpaper = () => {
                 alt='wallpaper2'
                 w={{base:'33.33%', md:'29%'}}
                 px={{base:'0', md:'0.5em'}}
+                mx={{base:'0', md:'-0.5em'}}
             />
             <Image
                 src='/images/wallpaper03.jpg'

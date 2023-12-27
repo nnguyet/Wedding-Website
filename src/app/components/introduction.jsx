@@ -3,21 +3,22 @@ import { Box, Text } from '@chakra-ui/react'
 export const Introduction = () => {
     return (
         <Box
-            p={{base:'1em 0', md:'2em 0'}}
+            p={{base:'1em 0', md:'1em 0'}}
             bg={{base:'pink.dark'}}
+            fontSize={{ base: "1em", md:'1.25em', xl:'1.0625em' }}
             fontStyle={{base:'italic'}}
         >
             <Text
-                fontSize={{ base: "1.625em", sm:'1.75em', md: "1.875em" }}
+                fontSize={{ base: "1.625em", sm:'1.75em', md: "4.5rem" }}
                 textAlign={{base:'center'}}
-                pb={{ base: "0.5em", sm: "0.5em" }}
+                pb={{ base: "0.5em", sm: "0.25em", md:'0'}}
+                className='font-corinthia'
             >
                 Ngày mình có nhau
             </Text>
             <Text
                 textAlign={{base:'center'}}
-                lineHeight={{ base: "1.5em", md:'1.5em' }}
-                fontSize={{ base: "1em", md:'1.25em' }}
+                lineHeight={{ base: "1.5em", md:'1.75em' }}
                 w={{base:'100%', md:'33em', lg:'38em', xl:'48em'}}
                 p={{base:'0 0.375em', sm:'0 1em', md:'0'}}
                 m={{base:'auto'}}
@@ -30,8 +31,7 @@ export const Introduction = () => {
             <Text
                 p={{base:'0.5em 0.5em 0', sm:'0.75em 1em 0', md:'0.75em 0 0'}}
                 textAlign={{base:'center'}}
-                lineHeight={{ base: "1.5em", md:'1.5em' }}
-                fontSize={{ base: "1em", md:'1.25em' }}
+                lineHeight={{ base: "1.5em", md:'1.75em' }}
                 w={{base:'100%', md:'35em', lg:'38em', xl:'44em'}}
                 m={{base:'auto'}}
             >

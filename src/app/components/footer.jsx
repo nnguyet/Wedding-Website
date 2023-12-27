@@ -6,6 +6,7 @@ export const Footer = () => {
         <Box
             bg={{base:'pink.default'}}
             p={{base:'1em 0.5em 0.125em', md:'1em 1em 0.25em', lg:'1.25em 1.5em 0.5em'}}
+            className='font-nunito'
         >
             <Text
                 textAlign={{base:'center'}}

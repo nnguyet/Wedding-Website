@@ -97,16 +97,17 @@ export const Form = () => {
         <Center
             flexDir={{base:'column'}}
         >
-            <Heading
-                as='h2'
+            <Text
+                className='font-corinthia'
+                fontSize={{base:'1.5em', sm:'1.75em', md:'4rem'}}
             >
                 Đôi lời nhắn gửi...
-            </Heading>
+            </Text>
 
             <Text
                 fontStyle={{base:'italic'}}
                 textAlign={{base:'center'}}
-                pt={{base:'0.75em'}}
+                mt={{xl:'-0.25em'}}
             >
                 Thật vui khi được trải qua ngày ý nghĩa như vậy với những người thân yêu.
                 <br />

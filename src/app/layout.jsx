@@ -4,7 +4,7 @@ import { Providers } from "./providers";
 import { Box } from '@chakra-ui/react';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Lobster, Ephesis, Nunito  } from "next/font/google";
+import { Lobster, Ephesis, Nunito, Corinthia  } from "next/font/google";
 import { Header, Footer } from "./components";
 
 const lobster = Lobster({
@@ -26,6 +26,13 @@ const nunito = Nunito({
     variable: '--font-nunito'
 });
 
+const corinthia = Corinthia({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: ['400'],
+    variable: '--font-corinthia'
+});
+
 export const metadata = {
   title: 'Việt Ngọc Wedding',
   description: 'This is Việt Ngọc Wedding website',
@@ -33,7 +40,7 @@ export const metadata = {
  
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={`${lobster.variable} ${ephesis.variable} ${nunito.variable}`}>
+        <html lang="en" className={`${lobster.variable} ${ephesis.variable} ${nunito.variable} ${corinthia.variable}`}>
             <body>
                 <Providers>
                     <Header />

@@ -1,4 +1,10 @@
 import { Box, Text, Flex, Image, Show, Hide } from '@chakra-ui/react'
+// import { Handlee } from 'next/font/google'
+
+// const handlee = Handlee({
+//     weight: '400',
+//     subsets: ['latin'],
+// });
 
 export const Gallery = () => {
     return (
@@ -99,10 +105,11 @@ export const Gallery = () => {
 
             <Text
                 textAlign={{base:'center'}}
-                fontStyle={{base:'italic'}}
-                fontSize={{ base: "0.75em", sm:'1em', md:'0.875em', lg:'1.1em'}}
+                // fontStyle={{base:'italic'}}
+                fontSize={{ base: "0.75em", sm:'1em', md:'0.875em', lg:'1.1875em'}}
                 lineHeight={{ base: "2em", sm:'2.5em', md: "2em", lg:'2.25em' }}
                 mx={{base:'0', md:'calc(0.65em + min((100% - 47rem) / 2, 4em))', lg:'0', xl:'0.5em'}}
+                // className={handlee.className}
             >
                 You{'\''}re my serendipity
                 <br />

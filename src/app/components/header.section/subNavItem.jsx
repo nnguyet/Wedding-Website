@@ -10,7 +10,8 @@ export const SubNavItem = ({ title, href='/', subContent }) => {
 
     return (
         <Box
-            p={{md:'0 2.5em'}}
+            p={{md:'0 2em'}}
+            mx={{md:'0.5em'}}
             fontSize={{md:'0.875em'}}
             textAlign={{md:'center'}}
             color={path.includes(href) ? 'brown.default' : 'textColor.default'}

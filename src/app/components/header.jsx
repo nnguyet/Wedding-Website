@@ -14,6 +14,7 @@ export const Header = () => {
             right={{base:'0'}}
             zIndex={{base:'2'}}
             px={{base:'0', md:'2em', lg:'10%', xl:'22%'}}
+            className='font-nunito'
         >
             <Logo />
             <Title />

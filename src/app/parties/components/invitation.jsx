@@ -14,7 +14,7 @@ export const Invitation = () => {
         >
             <Text
                 fontSize={{base:'3.5em'}}
-                fontWeight={{base:'bold'}}
+                fontWeight={{base:'500'}}
                 pb={{base:'0.25em' , md:'0.5em'}}
                 className='font-lobster'
             >
@@ -26,6 +26,7 @@ export const Invitation = () => {
                 justifyContent={{base:'center'}}
                 alignItems={{base:'center'}}
                 flexDir={{base:'column'}}
+                lineHeight={{base:'1.75em'}}
             >
                 <Text>
                     Trong không khí rộn ràng của những ngày cuối năm, trân trọng kính mời các khách quý đến dự buổi tiệc tối mừng cưới cùng Việt, Ngọc & gia đình.

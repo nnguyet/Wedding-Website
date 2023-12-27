@@ -1,7 +1,7 @@
 /** @type {import('tailwindcss').Config} */
 module.exports = {
   content: [
-    './src/**/*.{js,ts,jsx,tsx,mdx}',
+    './src/**/*.{js,jsx,mdx}',
   ],
   theme: {
     extend: {
@@ -19,6 +19,7 @@ module.exports = {
         lobster: ['var(--font-lobster)'],
         ephesis: ['var(--font-ephesis)'],
         nunito: ['var(--font-nunito)'],
+        corinthia: ['var(--font-corinthia)'],
       }
     },
   },
