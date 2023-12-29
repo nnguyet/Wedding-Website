@@ -14,14 +14,14 @@ export const Gallery = () => {
                 <Flex>
                     <Box>
                         <Image
-                            src='/gallery/img9.jpg'
+                            src='/albums/pre-wedding/img52.jpg'
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             mb={{md:'0.25em'}}
                             objectFit={'cover'}
                         />
                         <Image
-                            src='/gallery/img17.jpg'
+                            src='/albums/pre-wedding/img15.jpg'
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             h={{lg:'12.5em', xl:'15.5em'}}
@@ -33,7 +33,7 @@ export const Gallery = () => {
                         ml={{md:'0.25em'}}
                     >
                         <Image
-                            src='/gallery/img7.jpg'
+                            src='/albums/pre-wedding/img19.jpg'
                             alt='image'
                             w={{md:'10.5em', lg:'13em', xl:'16.25em'}}
                             objectFit={'cover'}
@@ -41,14 +41,14 @@ export const Gallery = () => {
                         />
                         <Flex>
                             <Image
-                                src='/gallery/img1.jpg'
+                                src='/albums/pre-wedding/img50.jpg'
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 mr={{md:'0.25em'}}
                                 objectFit={'cover'}
                             />
                             <Image
-                                src='/gallery/img04.jpg'
+                                src='/albums/pre-wedding/img04.jpg'
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 objectFit={'cover'}
@@ -64,7 +64,6 @@ export const Gallery = () => {
                     justifyContent={'center'}
                     alignItems={'center'}
                     flexDir={'column'}
-                    // mr={{base:'1%'}}
                 >
                     <Flex
                         w={{base:'100%'}}
@@ -72,7 +71,7 @@ export const Gallery = () => {
                         alignItems={'center'}
                     >
                         <Image
-                            src='/gallery/img1.jpg'
+                            src='/albums/pre-wedding/img50.jpg'
                             alt='img'
                             w={{base:'48%', sm:'7em'}}
                             objectFit={'cover'}
@@ -80,7 +79,7 @@ export const Gallery = () => {
                             aspectRatio={1/1}
                         />
                         <Image
-                            src='/gallery/img2.jpg'
+                            src='/albums/pre-wedding/img30.jpg'
                             alt='img'
                             w={{base:'48%', sm:'7em'}}
                             objectFit={'cover'}
@@ -88,7 +87,7 @@ export const Gallery = () => {
                         />
                     </Flex>
                     <Image
-                            src='/gallery/img3.jpg'
+                            src='/albums/pre-wedding/img19.jpg'
                             alt='img'
                             w={{base:'calc(96% + 0.25em)', sm:'14.25em'}}
                             objectFit={'cover'}
@@ -119,21 +118,21 @@ export const Gallery = () => {
                     >
                         <Flex>
                             <Image
-                                src='/gallery/img4.jpg'
+                                src='/albums/pre-wedding/img39.jpg'
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 mr={{md:'0.25em'}}
                                 objectFit={'cover'}
                             />
                             <Image
-                                src='/gallery/img6.jpg'
+                                src='/albums/pre-wedding/img30.jpg'
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 objectFit={'cover'}
                             />
                         </Flex>                    
                         <Image
-                            src='/gallery/img5.jpg'
+                            src='/albums/pre-wedding/img51.jpg'
                             alt='image'
                             w={{md:'10.5em', lg:'13em', xl:'16.25em'}}
                             objectFit={'cover'}
@@ -143,14 +142,14 @@ export const Gallery = () => {
                     
                     <Box>
                         <Image
-                            src='/gallery/img29.jpg'
+                            src='/albums/pre-wedding/img22.jpg'
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             h={{lg:'12.5em', xl:'15.5em'}}
                             objectFit={'cover'}
                         />
                         <Image
-                            src='/gallery/img10.jpg'
+                            src='/albums/pre-wedding/img40.jpg'
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             mt={{md:'0.25em'}}
