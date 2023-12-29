@@ -1,6 +1,5 @@
 import { Box, Text, Image } from '@chakra-ui/react'
 
-
 export const Footer = () => {
     return (
         <Box
@@ -11,10 +10,9 @@ export const Footer = () => {
             <Text
                 textAlign={{base:'center'}}
                 fontStyle={{base:'italic'}}
-                fontSize={{base:'1.15em', md:'1.375em'}}
+                fontSize={{base:'1rem', xl:'1.125rem'}}
                 fontWeight={{base:'300'}}
-                w={{base:'90%', md:'70%'}}
-                maxW={{sm:'26em'}}
+                w={{base:'calc(min(20.125rem, 90%))', sm:'25rem', md:'28rem'}}
                 m={{base:'auto'}}
             >
                 Nếu cần hỗ trợ trong quá trình đến với sảnh tiệc có thể liên hệ qua team Wedding Planner của chúng mình nhé!
@@ -22,14 +20,14 @@ export const Footer = () => {
             <Image
                 src='/images/contact.png'
                 alt='contact-logo'
-                w={{base:'16.5em', sm:'19em', md:'23em'}}
-                m={{base:'1.5em auto'}}
+                w={{base:'11em', sm:'14em', md:'15em', xl:'16em'}}
+                m={{base:'0.75em auto'}}
             />
             <Text
                 textAlign={{base:'center'}}
                 fontStyle={{base:'italic'}}
-                fontSize={{base:'1.125em', md:'1.25em'}}
-                fontWeight={{base:'300'}}
+                fontSize={{base:'1rem', xl:'1.125rem'}}
+                fontWeight={{base:'400'}}
                 m={{base:'auto'}}
                 pb={{base:'0.75em', md:'0.1em'}}
             >

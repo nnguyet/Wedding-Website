@@ -1,4 +1,4 @@
-import { Image, Heading, Card, CardBody, Link } from '@chakra-ui/react'
+import { Image, Text, Card, CardBody, Link, Flex } from '@chakra-ui/react'
 import NextLink from 'next/link'
 
 export const Album = ({img, title, href='/photos', query='prewedding'}) => {    
@@ -13,21 +13,41 @@ export const Album = ({img, title, href='/photos', query='prewedding'}) => {
                 <CardBody
                     p={{base:'8px 8px 2px'}}
                 >
-                    <Image
-                        src={img}
-                        alt='alb'
-                        maxW={{base:'100%'}}
-                        fit={{base:'cover'}}
-                        borderRadius={{base:'4px'}}
-                    />
+                    {
+                        img === 'unknown' ? 
+                        (<Flex
+                            w={{base:'100%'}}
+                            justifyContent={{base:'center'}}
+                            alignItems={{base:'center'}}
+                            fontSize={{base:'5rem'}}
+                            bg={{base:'pink.default'}}
+                            borderRadius={{base:'4px'}}
+                            aspectRatio={{base:'3/2'}}
+                        >
+                            <Image
+                                src='/images/coming-soon.gif'
+                                alt='coming-soon'
+                                w={{base:'55%'}}
+                                objectFit={{base:'cover'}}
+                            />
+                        </Flex>)
+                        : (<Image
+                            src={img}
+                            alt='alb'
+                            maxW={{base:'100%'}}
+                            fit={{base:'cover'}}
+                            borderRadius={{base:'4px'}}
+                        />)
+                    }
 
-                    <Heading
-                        size={{base:'md', sm:'sm'}}
+                    <Text
+                        fontSize={{base:'1.125em', md:'1.125em'}}
                         m={{base:'12px 0'}}
                         textAlign={{base:'center'}}
+                        fontWeight={{base:'600'}}
                     >
                         {title}
-                    </Heading>
+                    </Text>
                 </CardBody>
             </Link>
         </Card>

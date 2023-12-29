@@ -18,11 +18,12 @@ export default function Album({ params }) {
                     <TabList
                         flexWrap={{base:'wrap'}}
                         position={{base:'fixed'}}
-                        top={{base:'9.6em', sm:'10.7em', md:'7rem'}}
+                        top={{base:'9.53125rem', sm:'10.7rem', md:'7rem', '2xl':'7.9375rem'}}
                         left={{base:'0'}}
                         right={{base:'0'}}
                         bg={{base:'pink.light'}}
                         p={{base:'0.25em 3%', sm:'0.25em 7%', md:'0.5em 4%'}}
+                        zIndex={{base:'1'}}
                     >
                         {
                             albumList.map((value) => {

@@ -1,6 +1,6 @@
 'use client';
 
-import { Flex, Input, Heading, Center, Text, Textarea, IconButton, useToast } from '@chakra-ui/react'
+import { Flex, Input, Center, Text, Textarea, IconButton, useToast } from '@chakra-ui/react'
 import { useState, useRef } from 'react';
 import { config } from '@fortawesome/fontawesome-svg-core'
 import '@fortawesome/fontawesome-svg-core/styles.css'
@@ -36,7 +36,7 @@ export const Form = () => {
             nameInputRef.current.focus();
             return toast({
                 title: 'Không có tên',
-                description: `Bạn chưa điền tên của mình kìa!`,
+                description: `Bạn quên điền tên của mình rồi!`,
                 status:'warning',
                 duration: 4000,
                 isClosable: true,
@@ -46,7 +46,7 @@ export const Form = () => {
             messageInputRef.current.focus();
             return toast({
                 title: 'Không có lời chúc',
-                description: `Hãy để lại lời chúc của bạn dành cho tụi mình nhé!`,
+                description: `Hãy để lại lời chúc của bạn cho Dâu Rể nhé!`,
                 status:'warning',
                 duration: 4000,
                 isClosable: true,
@@ -68,7 +68,7 @@ export const Form = () => {
                 router.refresh();
                 return toast({
                     title: 'Thành công',
-                    description: `Việt và Ngọc đã nhận được lời chúc của bạn rồi. Cảm ơn bạn nhé!`,
+                    description: `Cảm ơn bạn đã gửi lời chúc cho Dâu Rể nhé!`,
                     status: 'success',
                     duration: 4000,
                     isClosable: true,
@@ -96,10 +96,11 @@ export const Form = () => {
     return (
         <Center
             flexDir={{base:'column'}}
+            fontSize={{xl:'1.125rem'}}
         >
             <Text
                 className='font-corinthia'
-                fontSize={{base:'1.5em', sm:'1.75em', md:'4rem'}}
+                fontSize={{base:'2.75rem', sm:'3.125rem', md:'3.25rem', lg:'3.5rem', xl:'4.5rem'}}
             >
                 Đôi lời nhắn gửi...
             </Text>
@@ -136,6 +137,7 @@ export const Form = () => {
                     onChange={handleNameInput}
                     ref={nameInputRef}
                     disabled={submitting}
+                    bg={{base:'white'}}
                 />
             </Flex>
 
@@ -150,12 +152,13 @@ export const Form = () => {
                 placeholder='Lời vàng ý ngọc'
                 w={{base:'90%', sm:'24em', md:'60%'}}
                 maxW={{md:'30em', lg:'35em'}}
-                h={{base:'11em'}}
+                h={{base:'9em', md:'11em'}}
                 resize={{base:'none'}}
                 value={message}
                 onChange={handleMessageInput}
                 ref={messageInputRef}
                 disabled={submitting}
+                bg={{base:'white'}}
             />
             <IconButton
                 m={{base:'6px'}}

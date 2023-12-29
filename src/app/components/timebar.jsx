@@ -4,22 +4,22 @@ import { Time, VerticalLine } from './timebar.section'
 export const Timebar = () => {
     return (
         <Box
-            pt={{base:'2em'}}
-            pb={{base:'1.75em', md:'9.5em'}}
+            pt={{base:'2em', lg:'1.5rem'}}
+            pb={{base:'1.75em', md:'8.5rem'}}
             bg={'pink.light'}
         >
             <Text
                 fontWeight={{base:'600'}}
                 fontStyle={{base:'italic'}}
                 textAlign={{base:'center'}}
-                fontSize={{base:'1.75em'}}
+                fontSize={{base:'1.5rem', md:'1.375rem', lg:'1.5rem', xl:'1.6875rem'}}
             >
                 Timeline Tiệc Cưới
             </Text>
 
             <Box
                 position={{md:'relative'}}
-                mt={{base:'1.25em', md:'10.25em', lg:'9.5em'}}
+                mt={{base:'0.5rem', md:'8em'}}
                 mx={{base:'0.5em', md:'2em'}}
                 >
                 <Show above='md'>
@@ -36,7 +36,7 @@ export const Timebar = () => {
                             ico='/images/arch.svg'
                             title='Đón Khách'
                             message='Hãy đến sớm để có những tấm hình thật đẹp'
-                            time='17h30'
+                            time='17:30'
                             bottom='calc(100% - 28px)'
                             left='2%'
                             margin='-0.25em'
@@ -45,7 +45,7 @@ export const Timebar = () => {
                             ico='/images/ring.svg'
                             title='Lễ Cưới'
                             message='Giây phút Việt & Ngọc về chung một nhà'
-                            time='18h30'
+                            time='18:30'
                             dir='column'
                             top='calc(100% - 28px)'
                             left='30%'
@@ -54,7 +54,7 @@ export const Timebar = () => {
                             ico='/images/drink.svg'
                             title='Khai Tiệc'
                             message='Cùng nâng ly chúc mừng ngày đặc biệt'
-                            time='19h'
+                            time='19:00'
                             bottom='calc(100% - 28px)'
                             right='2%'
                             margin='-0.5em'
@@ -74,14 +74,14 @@ export const Timebar = () => {
                             ico='/images/arch.svg'
                             title='Đón Khách'
                             message='Hãy đến sớm để có những tấm hình thật đẹp'
-                            time='17h30'
+                            time='17:30'
                         />
                         <VerticalLine />
                         <Time
                             ico='/images/ring.svg'
                             title='Lễ Cưới'
                             message='Giây phút Việt & Ngọc về chung một nhà'
-                            time='18h30'
+                            time='18:30'
                             dir='column'
                         />
                         <VerticalLine />
@@ -89,7 +89,7 @@ export const Timebar = () => {
                             ico='/images/drink.svg'
                             title='Khai Tiệc'
                             message='Cùng nâng ly chúc mừng ngày đặc biệt'
-                            time='19h'
+                            time='19:00'
                             />
                     </Flex>
                 </Hide>

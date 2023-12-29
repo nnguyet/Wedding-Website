@@ -1,4 +1,4 @@
-import { Image, Flex, Box, Text } from '@chakra-ui/react'
+import { Image, Flex, Box, Text, Hide, Show } from '@chakra-ui/react'
 
 
 export const Dresscode = () => {
@@ -10,16 +10,40 @@ export const Dresscode = () => {
         >
             <Text
                 mx={'auto'}
-                w={{base:'85%', md:'40em'}}
-                fontSize={{base:'1.0625em', md:'1.125em', lg:'1.1875em'}}
+                w={{base:'100%', sm:'28rem', md:'40em'}}
+                fontSize={{base:'1em', lg:'1.125rem', xl:'1.125rem'}}
             >
-                Xin kính mời các khách quý đến trong khoảng giờ đón khách, để có thể cùng Việt & Ngọc lưu lại các hình ảnh kỷ niệm và dành thời gian trò chuyện trước tiệc cưới nhé!
+                Xin kính mời các khách quý đến trong khoảng{' '}
+                <Show breakpoint='(min-width:20.25rem)'>
+                    <Hide above='sm'>
+                        <br />
+                    </Hide>
+                </Show>
+                giờ đón khách, để có thể cùng{' '}
+                <Show breakpoint='(max-width:20.125rem)'>
+                    <Hide breakpoint='(max-width:16.75rem)'>
+                        <br />
+                    </Hide>
+                </Show>
+                Việt & Ngọc{' '}
+                <Show breakpoint='(min-width:20.25rem)'>
+                    <Hide above='sm'>
+                        <br />
+                    </Hide>
+                </Show>
+                lưu lại các hình ảnh kỷ niệm và dành thời gian{' '}
+                <Show breakpoint='(min-width:20.25rem)'>
+                    <Hide above='sm'>
+                        <br />
+                    </Hide>
+                </Show>
+                trò chuyện trước tiệc cưới nhé!
             </Text>
             <Text
-                mt={{base:'1.5em', lg:'2em'}}
-                mb={{base:'1.5em'}}
+                mt={{base:'1.5em'}}
+                mb={{base:'1em'}}
                 fontWeight={'600'}
-                fontSize={{base:'1.125em', md:'1.25em', xl:'1.375em'}}
+                fontSize={{base:'1.125em', md:'1.25em', lg:'1.5rem', xl:'1.6875rem'}}
             >
                 Dresscode Tone Pastel
             </Text>

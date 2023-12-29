@@ -10,7 +10,7 @@ import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 export const Wishes = async () => {
     return (
         <Box
-            p={{base:'2em 1em', md:'2em 1.5em'}}
+            p={{base:'1em 1em', md:'1rem 1.5em 2rem'}}
             bg={'pink.light'}
         >
             <Form />
@@ -28,12 +28,12 @@ export const Wishes = async () => {
                     justifyContent={{base:'center'}}
                 >
                     <Text
-                        w={{base:'75%', sm:'100%'}}
+                        w={{base:'100%'}}
                         textAlign={{base:'center'}}
                         m={{base:'0 0 8px', sm:'4px 0 8px', md:'0 8px'}}
-                        fontSize={{base:'1.0625em', md:'1.125em'}}
+                        fontSize={{base:'1.0625em', sm:'1rem', md:'1.125em'}}
                     >
-                        Xem thêm những lời chúc khác ở đây nè...
+                        Bấm để xem thêm những lời chúc khác ...
                     </Text>
                     <FontAwesomeIcon icon={faArrowRight}/>
                 </Link>

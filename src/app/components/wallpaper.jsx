@@ -10,20 +10,20 @@ export const Wallpaper = () => {
             bg={'pink.light'}
         >
             <Image
-                src='/images/wallpaper01.jpg'
+                src='/albums/pre-wedding/img34.jpg'
                 alt='wallpaper1'
                 w={{base:'33.33%', md:'29%'}}
                 px={{base:'0', md:'0.5em'}}
             />
             <Image
-                src='/images/wallpaper02.jpg'
+                src='/albums/pre-wedding/img28.jpg'
                 alt='wallpaper2'
                 w={{base:'33.33%', md:'29%'}}
                 px={{base:'0', md:'0.5em'}}
                 mx={{base:'0', md:'-0.5em'}}
             />
             <Image
-                src='/images/wallpaper03.jpg'
+                src='/albums/pre-wedding/img24.jpg'
                 alt='wallpaper3'
                 w={{base:'33.33%', md:'29%'}}
                 px={{base:'0', md:'0.5em'}}

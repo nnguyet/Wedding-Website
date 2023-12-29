@@ -4,15 +4,8 @@ import { Providers } from "./providers";
 import { Box } from '@chakra-ui/react';
 import { Analytics } from '@vercel/analytics/react';
 import { SpeedInsights } from "@vercel/speed-insights/next"
-import { Lobster, Ephesis, Nunito, Corinthia  } from "next/font/google";
+import { Ephesis, Nunito, Corinthia  } from "next/font/google";
 import { Header, Footer } from "./components";
-
-const lobster = Lobster({
-    subsets: ['latin'],
-    display: 'swap',
-    weight: ['400'],
-    variable: '--font-lobster'
-});
 
 const ephesis = Ephesis({
     subsets: ['latin'],
@@ -34,17 +27,17 @@ const corinthia = Corinthia({
 });
 
 export const metadata = {
-  title: 'Việt Ngọc Wedding',
-  description: 'This is Việt Ngọc Wedding website',
+  title: 'VietNgocWedding',
+  description: 'Việt & Ngọc Wedding website',
 }
  
 export default function RootLayout({ children }) {
     return (
-        <html lang="en" className={`${lobster.variable} ${ephesis.variable} ${nunito.variable} ${corinthia.variable}`}>
+        <html lang="en" className={`${ephesis.variable} ${nunito.variable} ${corinthia.variable}`}>
             <body>
                 <Providers>
                     <Header />
-                    <Box p={{base:'9.53125em 0 0', sm:'10.65625em 0 0', md:'7em 0 0'}} className='font-nunito'>
+                    <Box p={{base:'9.53125rem 0 0', sm:'10.65625rem 0 0', md:'7rem 0 0', '2xl':'7.9375rem 0 0'}} className='font-nunito'>
                         {children}
                     </Box>
                     <Footer />

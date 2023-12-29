@@ -12,7 +12,7 @@ export const SubNavItem = ({ title, href='/', subContent }) => {
         <Box
             p={{md:'0 2em'}}
             mx={{md:'0.5em'}}
-            fontSize={{md:'0.875em'}}
+            fontSize={{md:'0.875em', '2xl':'1rem'}}
             textAlign={{md:'center'}}
             color={path.includes(href) ? 'brown.default' : 'textColor.default'}
             _hover={{

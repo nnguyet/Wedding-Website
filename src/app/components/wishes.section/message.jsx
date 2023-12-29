@@ -87,40 +87,35 @@ export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
                     maxH={{base:'80%', sm:'75%', md:'70%'}}
                     borderRadius={{base:'0.6em'}}
                 >
-            
-
-                <ModalBody
-                    display={{base:'flex'}}
-                    p={{base:'2px'}}
-                    m={{base:'20px 22px 8px', sm:'28px 32px 16px'}}
-                >
-                    <Text
-                        textAlign={{base:'center'}}
-                        m={{base:'auto'}}
+                    <ModalBody
+                        display={{base:'flex'}}
+                        p={{base:'2px'}}
+                        m={{base:'1.25rem 1.375rem 0.5rem', sm:'1.75rem 2rem 1rem'}}
                     >
-                        {message}
-                    </Text>
-                </ModalBody>
-                
-                <ModalFooter
-                    display={{base:'flex'}}
-                    justifyContent={{base:'space-between'}}
-                    alignItems={{base:'center'}}
-                >
-                    
-                    <Box></Box>
-                    <Text
-                        fontWeight={{base:'500'}}
-                        isTruncated={'true'}
-                        noOfLines={{base:'2'}}
-                        textAlign={{base:'center'}}
-                        mr={{base:'2px', sm:'4px'}}
+                        <Text
+                            textAlign={{base:'center'}}
+                            m={{base:'auto'}}
+                        >
+                            {message}
+                        </Text>
+                    </ModalBody>
+                    <ModalFooter
+                        display={{base:'flex'}}
+                        justifyContent={{base:'space-between'}}
+                        alignItems={{base:'center'}}
                     >
-                        {name}
-                    </Text>
-                    <FontAwesomeIcon icon={faQuoteRight} />
-                </ModalFooter>
-
+                        <Box></Box>
+                        <Text
+                            fontWeight={{base:'500'}}
+                            isTruncated={'true'}
+                            noOfLines={{base:'2'}}
+                            textAlign={{base:'center'}}
+                            mr={{base:'2px', sm:'4px'}}
+                        >
+                            {name}
+                        </Text>
+                        <FontAwesomeIcon icon={faQuoteRight} />
+                    </ModalFooter>
                 </ModalContent>
             </Modal>
         </Fragment>

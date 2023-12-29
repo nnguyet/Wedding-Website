@@ -1,6 +1,5 @@
 'use client' // Error components must be Client Components
- 
-// import { useEffect } from 'react'
+
 import { Heading, Button, Center } from '@chakra-ui/react'
  
 export default function HomeError({ error, reset }) {

@@ -42,8 +42,9 @@ export const Messages = async ({ limit=0, backgroundColor }) => {
             {
                 n === 0 ? (
                     <Text
-                        fontSize={{base:'1.125em', md:'1.25em'}}
+                        fontSize={{base:'1rem', xl:'1.125rem'}}
                         textAlign={{base:'center'}}
+                        w={{base:'18rem', sm:'22rem', md:'100%'}}
                     >
                         Hãy là người đầu tiên để lại lời chúc cho ngày vui của Việt và Ngọc nhé!
                     </Text>

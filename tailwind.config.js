@@ -16,7 +16,6 @@ module.exports = {
         shake: 'shake 1s linear infinite',
       },
       fontFamily: {
-        lobster: ['var(--font-lobster)'],
         ephesis: ['var(--font-ephesis)'],
         nunito: ['var(--font-nunito)'],
         corinthia: ['var(--font-corinthia)'],

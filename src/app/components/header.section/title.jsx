@@ -9,6 +9,7 @@ export const Title = () => {
             flexDir={{base:'column'}}
             pb={{md:'0.75em'}}
             mt={{base:'0', md:'0.25em'}}
+            mx={{'2xl':'2rem'}}
         >
             <Flex
                 justifyContent={{base:'center'}}
@@ -16,7 +17,7 @@ export const Title = () => {
                 className='font-ephesis'
                 color={{base:'white'}}
                 fontWeight={{base:'400'}}
-                fontSize={{base:'2.125em', sm:'2.875em', md:'3em'}}
+                fontSize={{base:'2.125em', sm:'2.875em', md:'3em', '2xl':'3.5em'}}
                 ml={{base:'0', sm:'0.2em', md:'0'}}
             >
                 <Text

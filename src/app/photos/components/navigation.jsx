@@ -6,6 +6,7 @@ export const Nav = ({ title, query }) => {
         <Tab
             m={{base:'auto'}}
             w={{base:'40%', sm:'35%', md:'auto'}}
+            fontSize={{base:'0.9375rem', md:'1rem'}}
             _hover={{
                 bg:'#ffedf2',
                 color:'#7c2d12'
