@@ -37,7 +37,7 @@ export default function RootLayout({ children }) {
             <body>
                 <Providers>
                     <Header />
-                    <Box p={{base:'9.53125rem 0 0', sm:'10.65625rem 0 0', md:'7rem 0 0', '2xl':'7.9375rem 0 0'}} className='font-nunito'>
+                    <Box bg='pink.light' p={{base:'9.53125rem 0 0', sm:'10.65625rem 0 0', md:'7rem 0 0', '2xl':'7.9375rem 0 0'}} className='font-nunito'>
                         {children}
                     </Box>
                     <Footer />

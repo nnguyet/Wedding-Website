@@ -1,10 +1,33 @@
+'use client';
+
 import { Box, Tabs, TabList } from '@chakra-ui/react'
 import { albumList } from '../../components';
 import { Nav, Gallery } from '../components';
+import { useEffect, useState, useCallback } from 'react';
 
 export default function Album({ params }) {
     const album = params.album;
     const tab = albumList.find((value) => value.query === album) || albumList[0];
+
+    const [y, setY] = useState(0);
+    const [scrollDirection, setScrollDirection] = useState("you have not scrolled yet");
+
+    const handleNavigation = useCallback((e) => {
+        if (y > window.scrollY) {
+            setScrollDirection("Scrolling Up");
+        } else if (y < window.scrollY) {
+            setScrollDirection("Scrolling Down");
+        }
+        setY(window.scrollY)
+    }, [y]);
+
+    useEffect(() => {
+        window.addEventListener("scroll", handleNavigation);
+
+        return () => {
+            window.removeEventListener("scroll", handleNavigation);
+        };
+    }, [handleNavigation]);
 
     return (
         <Box
@@ -14,6 +37,7 @@ export default function Album({ params }) {
                 variant='soft-rounded'
                 colorScheme='pink'
                 index={tab.id}
+                display={{base:scrollDirection === 'Scrolling Down' ? 'none' : 'flex', md:'flex'}}
             >
                     <TabList
                         flexWrap={{base:'wrap'}}
