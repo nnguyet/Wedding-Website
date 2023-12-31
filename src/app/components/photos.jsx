@@ -1,6 +1,13 @@
 import { Box, Text, Flex } from '@chakra-ui/react'
 import { Album } from './photos.section'
 import { albumList } from './albumList'
+import { Lobster } from "next/font/google";
+
+const lobster = Lobster({
+    subsets: ['latin'],
+    display: 'swap',
+    weight: ['400']
+});
 
 export const Photos = () => {
     return (
@@ -12,7 +19,7 @@ export const Photos = () => {
                 textAlign='center'
                 fontSize={{base:'2.125em', sm:'2.25rem', md:'2rem', lg:'2.125rem', xl:'2.5rem'}}
                 mb={{base:'0'}}
-                className='font-lobster'
+                className={lobster.className}
             >
                 Hình ảnh
             </Text>

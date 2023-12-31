@@ -1,6 +1,6 @@
 import { LocationMap, Invitation } from "./components"
 import { Timebar, Dresscode } from "../components/"
-import { Box, Image, Flex } from '@chakra-ui/react'
+import { Box } from '@chakra-ui/react'
 
 export default function Parties() {
     return (
