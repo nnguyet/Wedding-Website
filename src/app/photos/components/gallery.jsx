@@ -1,5 +1,5 @@
 import { Flex, Text, Box, Image, Hide, Show } from '@chakra-ui/react'
-import { albumImage } from '../../components';
+import { albumImage, photoLink } from '../../components';
 import { Fragment } from 'react';
 
 export const Gallery = ({ tab }) => {
@@ -33,7 +33,7 @@ export const Gallery = ({ tab }) => {
                             {albumImage[tab+'-mobile'].map((value, index) => {
                                 return (
                                     <Image
-                                        src={`/albums/${tab}/${value}`}
+                                        src={photoLink[tab][value]}
                                         alt='img'
                                         fit={{base:'contain'}}
                                         borderRadius={{base:'8px'}}
@@ -48,7 +48,7 @@ export const Gallery = ({ tab }) => {
                             {album.map((value, index) => {
                                 return (
                                     <Image
-                                        src={`/albums/${tab}/${value}`}
+                                        src={photoLink[tab][value]}
                                         alt='img'
                                         fit={{base:'contain'}}
                                         borderRadius={{base:'8px'}}
