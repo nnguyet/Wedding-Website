@@ -50,8 +50,9 @@ export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
                         m={{base:'auto'}}
                         isTruncated={'true'}
                         noOfLines={{base:'4'}}
+                        whiteSpace={{base:'pre-line'}}
                     >
-                        {message}
+                        {`${message}`}
                     </Text>
                 </CardBody>
                 <Divider w={{base:'80%'}} m={{base:'auto'}} color={{base:'gray'}}/>
@@ -95,8 +96,9 @@ export const Message = ({ name = 'Unknown', message = `Happy Wedding!!!`}) => {
                         <Text
                             textAlign={{base:'center'}}
                             m={{base:'auto'}}
+                            whiteSpace={{base:'pre-line'}}
                         >
-                            {message}
+                            {`${message}`}
                         </Text>
                     </ModalBody>
                     <ModalFooter
