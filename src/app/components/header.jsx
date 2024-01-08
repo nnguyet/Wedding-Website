@@ -6,7 +6,7 @@ import {useEffect, useState, useCallback} from 'react';
 
 export const Header = () => {
     const [y, setY] = useState(0);
-    const [scrollDirection, setScrollDirection] = useState("you have not scrolled yet");
+    const [scrollDirection, setScrollDirection] = useState("Scrolling Up");
 
     const handleNavigation = useCallback((e) => {
         if (y > window.scrollY) {
@@ -28,7 +28,7 @@ export const Header = () => {
 
     return (
         <Flex
-            display={{base:scrollDirection === 'Scrolling Down' ? 'none' : 'flex', md:'flex'}}
+            display={{base:scrollDirection === 'Scrolling Up' || y === 0 ? 'flex' : 'none', md:'flex'}}
             justifyContent={{base:'space-around', '2xl':'center'}}
             alignItems={{base:'center'}}
             bg={{base:'pink.dark'}}
