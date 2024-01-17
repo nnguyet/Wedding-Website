@@ -26,7 +26,7 @@ export const Qrcode = () => {
                         id: 1,
                         bank: 'Techcombank',
                         name: 'LUONG MINH NGOC',
-                        number: '1903 6239 9140 19'
+                        number: '1903 6239 9140 18'
                     },
                     {
                         id: 2,
