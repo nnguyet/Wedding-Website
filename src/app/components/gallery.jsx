@@ -1,4 +1,5 @@
 import { Box, Text, Flex, Image, Show, Hide } from '@chakra-ui/react'
+import { photoLink } from './photoLink'
 
 export const Gallery = () => {
     return (
@@ -14,14 +15,14 @@ export const Gallery = () => {
                 <Flex>
                     <Box>
                         <Image
-                            src='/albums/pre-wedding/img52.jpg'
+                            src={photoLink['pre-wedding']['img52.jpg']}
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             mb={{md:'0.25em'}}
                             objectFit={'cover'}
                         />
                         <Image
-                            src='/albums/pre-wedding/img15.jpg'
+                            src={photoLink['pre-wedding']['img15.jpg']}
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             h={{lg:'12.5em', xl:'15.5em'}}
@@ -33,7 +34,7 @@ export const Gallery = () => {
                         ml={{md:'0.25em'}}
                     >
                         <Image
-                            src='/albums/pre-wedding/img19.jpg'
+                            src={photoLink['pre-wedding']['img19.jpg']}
                             alt='image'
                             w={{md:'10.5em', lg:'13em', xl:'16.25em'}}
                             objectFit={'cover'}
@@ -41,14 +42,14 @@ export const Gallery = () => {
                         />
                         <Flex>
                             <Image
-                                src='/albums/pre-wedding/img50.jpg'
+                                src={photoLink['pre-wedding']['img50.jpg']}
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 mr={{md:'0.25em'}}
                                 objectFit={'cover'}
                             />
                             <Image
-                                src='/albums/pre-wedding/img04.jpg'
+                                src={photoLink['pre-wedding']['img04.jpg']}
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 objectFit={'cover'}
@@ -71,7 +72,7 @@ export const Gallery = () => {
                         alignItems={'center'}
                     >
                         <Image
-                            src='/albums/pre-wedding/img50.jpg'
+                            src={photoLink['pre-wedding']['img50.jpg']}
                             alt='img'
                             w={{base:'48%', sm:'7em'}}
                             objectFit={'cover'}
@@ -79,7 +80,7 @@ export const Gallery = () => {
                             aspectRatio={1/1}
                         />
                         <Image
-                            src='/albums/pre-wedding/img30.jpg'
+                            src={photoLink['pre-wedding']['img30.jpg']}
                             alt='img'
                             w={{base:'48%', sm:'7em'}}
                             objectFit={'cover'}
@@ -87,7 +88,7 @@ export const Gallery = () => {
                         />
                     </Flex>
                     <Image
-                            src='/albums/pre-wedding/img19.jpg'
+                            src={photoLink['pre-wedding']['img19.jpg']}
                             alt='img'
                             w={{base:'calc(96% + 0.25em)', sm:'14.25em'}}
                             objectFit={'cover'}
@@ -118,21 +119,21 @@ export const Gallery = () => {
                     >
                         <Flex>
                             <Image
-                                src='/albums/pre-wedding/img39.jpg'
+                                src={photoLink['pre-wedding']['img39.jpg']}
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 mr={{md:'0.25em'}}
                                 objectFit={'cover'}
                             />
                             <Image
-                                src='/albums/pre-wedding/img30.jpg'
+                                src={photoLink['pre-wedding']['img30.jpg']}
                                 alt='image'
                                 w={{md:'5.125em', lg:'6.375em', xl:'8em'}}
                                 objectFit={'cover'}
                             />
                         </Flex>                    
                         <Image
-                            src='/albums/pre-wedding/img51.jpg'
+                            src={photoLink['pre-wedding']['img51.jpg']}
                             alt='image'
                             w={{md:'10.5em', lg:'13em', xl:'16.25em'}}
                             objectFit={'cover'}
@@ -142,14 +143,14 @@ export const Gallery = () => {
                     
                     <Box>
                         <Image
-                            src='/albums/pre-wedding/img22.jpg'
+                            src={photoLink['pre-wedding']['img22.jpg']}
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             h={{lg:'12.5em', xl:'15.5em'}}
                             objectFit={'cover'}
                         />
                         <Image
-                            src='/albums/pre-wedding/img40.jpg'
+                            src={photoLink['pre-wedding']['img40.jpg']}
                             alt='image'
                             w={{md:'6.75em', lg:'8.5em', xl:'11em'}}
                             mt={{md:'0.25em'}}

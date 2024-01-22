@@ -1,7 +1,7 @@
 export const albumList = [
     {
         id: 0,
-        img: '/albums/pre-wedding/img45.jpg',
+        img: 'https://lh3.googleusercontent.com/pw/ABLVV86p9KaHnAkEJCUYkqycWmeJPt3tZMPSVBOTv-HUrVxjGwar3ar4tt9CTyRtmSAg7TpbD-6GNQRXg0lRwwjmg11NlWNW4guY3DjD7H1WgMEBR9yr-AU',
         title: 'Pre-wedding',
         query: 'pre-wedding'
     },
