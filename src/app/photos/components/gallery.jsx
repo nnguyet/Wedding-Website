@@ -34,7 +34,7 @@ export const Gallery = ({ tab }) => {
                                 return (
                                     <Image
                                         src={photoLink[tab][value]}
-                                        alt='img'
+                                        alt={value}
                                         fit={{base:'contain'}}
                                         borderRadius={{base:'8px'}}
                                         mb={{base:'8px'}}
@@ -49,7 +49,7 @@ export const Gallery = ({ tab }) => {
                                 return (
                                     <Image
                                         src={photoLink[tab][value]}
-                                        alt='img'
+                                        alt={value}
                                         fit={{base:'contain'}}
                                         borderRadius={{base:'8px'}}
                                         mb={{base:'8px'}}

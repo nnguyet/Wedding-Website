@@ -1,9 +1,15 @@
 'use client';
 
-import { Box, Tabs, TabList } from '@chakra-ui/react'
+import { Box, Tabs, TabList, Center, Link, Text, Hide } from '@chakra-ui/react'
 import { albumList } from '../../components';
 import { Nav, Gallery } from '../components';
 import { useEffect, useState, useCallback } from 'react';
+import NextLink from 'next/link';
+import { config } from '@fortawesome/fontawesome-svg-core'
+import '@fortawesome/fontawesome-svg-core/styles.css'
+config.autoAddCss = false
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
+import { faArrowRight } from '@fortawesome/free-solid-svg-icons'
 
 export default function Album({ params }) {
     const album = params.album;
@@ -61,6 +67,39 @@ export default function Album({ params }) {
                 p={{base:'5.75em 0.5em 1em', sm:'5.7em 0.5em 1em', md:'3.75em 0.5em 1em'}}
             >
                 <Gallery tab={tab.query} />
+                {
+                    'albumLink' in tab ? (
+                        <Center
+                            p={{base:'1.25em 0 0', sm:'1.25em 0 0', md:'2em 0 0.75em', lg:'1.75em 0 0.75em'}}
+                        >
+                            <Link
+                                as={NextLink}
+                                href={tab.albumLink}
+                                className='transition ease-in-out hover:no-underline hover:font-bold hover:scale-110'
+                                display={{base:'flex'}}
+                                flexDir={{base:'column', md:'row'}}
+                                alignItems={{base:'center'}}
+                                justifyContent={{base:'center'}}
+                                target='_blank'
+                                rel='noreferrer noopener'
+                            >
+                                <Text
+                                    w={{base:'100%'}}
+                                    textAlign={{base:'center'}}
+                                    m={{base:'0 0 8px', sm:'4px 0 8px', md:'0 8px'}}
+                                    fontSize={{base:'1.0625em', sm:'1rem', md:'1.25em'}}
+                                >
+                                    Xem thêm những bức hình xinh xẻo khác{' '}
+                                    <Hide above='sm'>
+                                        <br />
+                                    </Hide>
+                                    ở đây nè
+                                </Text>
+                                <FontAwesomeIcon icon={faArrowRight}/>
+                            </Link>
+                        </Center>
+                        ) : null
+                }
             </Box>
         </Box>
     );
