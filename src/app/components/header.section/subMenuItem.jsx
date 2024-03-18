@@ -53,6 +53,8 @@ export const SubMenuItem = ({ content, last=false, subContent, href='/', path='/
             <Collapse in={isOpen} animateOpacity>
                 <Box
                     mt={{base:'0.4em'}}
+                    mx={{base:'auto'}}
+                    w={{base:'10rem'}}
                 >
                     {subContent.map((item, index) => {
                         return (

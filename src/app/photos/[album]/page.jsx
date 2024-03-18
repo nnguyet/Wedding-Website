@@ -48,11 +48,11 @@ export default function Album({ params }) {
                     <TabList
                         flexWrap={{base:'wrap'}}
                         position={{base:'fixed'}}
-                        top={{base:'9.53125rem', sm:'10.7rem', md:'7rem', '2xl':'7.9375rem'}}
+                        top={{base:'9.6875rem', sm:'10.7rem', md:'7rem', '2xl':'7.9375rem'}}
                         left={{base:'0'}}
                         right={{base:'0'}}
                         bg={{base:'pink.light'}}
-                        p={{base:'0.25em 3%', sm:'0.25em 7%', md:'0.5em 4%'}}
+                        p={{base:'0.375em 3%', sm:'0.25em 7%', md:'0.5em 4%'}}
                         zIndex={{base:'1'}}
                     >
                         {
@@ -64,7 +64,7 @@ export default function Album({ params }) {
             </Tabs>
 
             <Box
-                p={{base:'5.75em 0.5em 1em', sm:'5.7em 0.5em 1em', md:'3.75em 0.5em 1em'}}
+                p={{base:'5rem 0.5em 1em', sm:'5.7em 0.5em 1em', md:'3.75em 0.5em 1em'}}
             >
                 <Gallery tab={tab.query} />
                 {
@@ -86,8 +86,8 @@ export default function Album({ params }) {
                                 <Text
                                     w={{base:'100%'}}
                                     textAlign={{base:'center'}}
-                                    m={{base:'0 0 8px', sm:'4px 0 8px', md:'0 8px'}}
-                                    fontSize={{base:'1.0625em', sm:'1rem', md:'1.25em'}}
+                                    m={{base:'0 0 8px', sm:'4px 0 8px', md:'0 8px', lg:'0.5rem 0.5rem 0.5rem'}}
+                                    fontSize={{base:'1.0625rem', sm:'1rem', md:'1.25rem', lg:'1.375rem'}}
                                 >
                                     Xem thêm những bức hình xinh xẻo khác{' '}
                                     <Hide above='sm'>

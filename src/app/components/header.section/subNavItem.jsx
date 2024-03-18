@@ -59,6 +59,8 @@ export const SubNavItem = ({ title, href='/', subContent }) => {
                                     _hover={{
                                         color:'brown.default',
                                     }}
+                                    m={{md:'auto'}}
+                                    maxW={{md:'7.25rem'}}
                                 >
                                     {item.title}
                                 </Text>
