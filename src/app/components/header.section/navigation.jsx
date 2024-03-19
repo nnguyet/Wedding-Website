@@ -17,6 +17,7 @@ export const Navigation = () => {
             <NavItem title='Trang Chủ' />
             <NavItem title='Tiệc Mừng' href='/parties' />
             <SubNavItem title='Hình Ảnh' href='/photos' subContent={albumList}/>
+            <NavItem title='Phim' href='/video' />
             <NavItem title='Quà Cưới' href='/wishes' />
         </Flex>
     )

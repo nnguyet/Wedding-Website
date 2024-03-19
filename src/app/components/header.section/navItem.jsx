@@ -8,9 +8,9 @@ export const NavItem = ({ title, href='/' }) => {
     const path = usePathname();
 
     return (
-        <Link as={NextLink} href={href} className='hover:no-underline' >
+        <Link as={NextLink} href={href} _hover={{textDecor:'none'}} >
             <Box
-                p={{md:'0 2em'}}
+                p={{md:'0 1em'}}
                 fontSize={{md:'0.875em', '2xl':'1rem'}}
                 textAlign={{md:'center'}}
                 color={path === href ? 'brown.default' : 'textColor.default'}
