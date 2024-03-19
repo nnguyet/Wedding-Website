@@ -73,7 +73,7 @@ export const Menu = () => {
                         <MenuItem content='Trang Chủ' path={path}/>
                         <MenuItem content='Tiệc Mừng' href='/parties' path={path}/>
                         <SubMenuItem content='Hình Ảnh' subContent={albumList} href='/photos' path={path} />
-                        <MenuItem content='Phim phóng sự' href='/video' path={path} />
+                        <MenuItem content='Phim cưới' href='/video' path={path} />
                         <MenuItem content='Quà Cưới' last={true} href='/wishes' path={path} />
                     </ModalBody>
                 </ModalContent>
